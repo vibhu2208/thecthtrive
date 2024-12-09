@@ -797,36 +797,7 @@ const data = {
       }
     ]
   },
-  "integration-with-existing-systems": {
-    desc: "We offer an end-to-end solution focused on value creation for your entire team, with best-in-class Agile tooling and deep integrations.",
-    title1: "Jira Consulting",
-    img: "/images/individual-service/jira-consulting-services.png",
-    para1: "Techthrivesystem offers Jira consulting services to help businesses run more efficiently while also being more productive. We will help you scale, develop, and grow, no matter what your needs are. Utilise Techthrivesystem consulting services for Jira software, Jira work management, Confluence, and other tools to start living a more productive life. You'll find it easier with us.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Customized Jira Implementation",
-        desc: "We can help organizations to customize their Jira implementation to meet their specific needs and requirements."
-      },
-      {
-        title: "Efficient Workflow",
-        desc: "We can help organizations to design and implement efficient workflows that can help them to streamline their processes and improve their productivity."
-      },
-      {
-        title: "Training and Support",
-        desc: "We can provide training and support to help organizations to use Jira effectively and efficiently."
-      },
-      {
-        title: "Integration with Other Tools",
-        desc: "We can help organizations to integrate Jira with other tools such as Confluence, Bitbucket, and Slack to create a seamless workflow."
-      },
-      {
-        title: "Custom Reports",
-        desc: "We can help organizations to create custom reports that can provide valuable insights into their projects and help them to make data-driven decisions."
-      }
-    ]
-    
-  },
+  
   "salesforce-consulting": {
     desc: "Assisting numbers of people in realising the full potential of your Salesforce implementation, work with our team of certified Salesforce consultants and technologists.",
     title1: "Salesforce Consulting Services",
