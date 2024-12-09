@@ -30,35 +30,6 @@ type ServiceKey =
   | "seo-friendly-solutions";
 
 const data = {
-  "workflow-automation": {
-    desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
-    title1: "Web Design & Development",
-    img: "/images/individual-service/web-design-development.png",
-    para1: "Techthrivesystem believes in making ideas happen rather than just thinking about them. We are a professional web development company that offers end-to-end custom web apps to meet business requirements. Our services are designed to use next-generation technologies to develop breakthroughs that will help businesses stand out from the crowd.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Improved Efficiency",
-        desc: "We provide custom web apps development services to help businesses streamline their business operations, lowering execution time while increasing accuracy."
-      },
-      {
-        title: "Easy Accessibility",
-        desc: "Web apps provide businesses with the same functionality as desktop applications and can be accessed at any time and from any location on any internet-connected device."
-      },
-      {
-        title: "Effective Maintenance",
-        desc: "Web applications are designed to use the least amount of storage space possible. It is easy to maintain and upgrade since it runs efficiently on cloud-based infrastructure."
-      },
-      {
-        title: "Consumer engagement",
-        desc: "Web application services provide a platform to promote your products and services and engage your consumer base, which is crucial for business."
-      },
-      {
-        title: "Advanced Security",
-        desc: "We create web apps with robust data privacy and security procedures to guard against any errors, security breaches, and data leaks."
-      },
-    ]
-  },
   "seo-friendly-solutions": {
     desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
     title1: "Web Design & Development",
