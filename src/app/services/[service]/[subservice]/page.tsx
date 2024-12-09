@@ -2,9 +2,32 @@
 import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
-type ServiceKey = "web-design-development" | "mobile-app-development" |"cultural-transformation" | "e-commerce-development" | "enterprise-solutions" | "qa-testing" | "ui-ux" |
-"robust-performance-monitoring-solutions" | "actionable-insights" | "user-experience-management" | "comprehensive-application-monitoring" | "streamlining-development-and-operations" | " automation-in-devops" |"performance-metrics-and-monitoring" |
-"end-to-end-implementation-and-support" | "integration-with-existing-and-new-solution" | "training-and-knowledge-transfer" | "integration-with-existing-systems" | "intelligent-chatbots-for-engagement" | "customizable-solutions" | "leveraging-automation-technologies" | "process-optimization" | "scalability-and-flexibility"| "integration-with-existing-systems" | "aesthetic-and-user-friendly-designs" | "responsive-design-techniques" | "seo-friendly-solutions"
+type ServiceKey = 
+  | "web-design-development" 
+  | "mobile-app-development"
+  | "cultural-transformation" 
+  | "e-commerce-development" 
+  | "enterprise-solutions" 
+  | "qa-testing" 
+  | "ui-ux"
+  | "robust-performance-monitoring-solutions" 
+  | "actionable-insights" 
+  | "user-experience-management" 
+  | "comprehensive-application-monitoring" 
+  | "streamlining-development-and-operations" 
+  | "automation-in-devops"
+  | "performance-metrics-and-monitoring"
+  | "end-to-end-implementation-and-support" 
+  | "integration-with-existing-and-new-solution" 
+  | "training-and-knowledge-transfer" 
+  | "intelligent-chatbots-for-engagement" 
+  | "customizable-solutions" 
+  | "leveraging-automation-technologies" 
+  | "process-optimization" 
+  | "scalability-and-flexibility"
+  | "aesthetic-and-user-friendly-designs" 
+  | "responsive-design-techniques" 
+  | "seo-friendly-solutions";
 
 const data = {
   "workflow-automation": {
