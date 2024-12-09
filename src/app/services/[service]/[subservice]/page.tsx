@@ -29,7 +29,7 @@ type ServiceKey =
   | "leveraging-automation-technologies"
   | "process-optimization"
   | "scalability-and-flexibility"
-  | "aesthetic-and-user-friendly-designs";
+  | "aesthetic-and-user-friendly-designs"
 
 const data = {
   "seo-friendly-solutions": {
