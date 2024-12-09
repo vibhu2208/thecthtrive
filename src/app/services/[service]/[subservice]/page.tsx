@@ -3,31 +3,33 @@ import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
 type ServiceKey = 
-  | "web-design-development" 
+  type ServiceKey = 
+  | "seo-friendly-solutions"
+  | "responsive-design-techniques"
+  // Add all other keys present in the `data` object
+  | "web-design-development"
   | "mobile-app-development"
-  | "cultural-transformation" 
-  | "e-commerce-development" 
-  | "enterprise-solutions" 
-  | "qa-testing" 
+  | "cultural-transformation"
+  | "e-commerce-development"
+  | "enterprise-solutions"
+  | "qa-testing"
   | "ui-ux"
-  | "robust-performance-monitoring-solutions" 
-  | "actionable-insights" 
-  | "user-experience-management" 
-  | "comprehensive-application-monitoring" 
-  | "streamlining-development-and-operations" 
+  | "robust-performance-monitoring-solutions"
+  | "actionable-insights"
+  | "user-experience-management"
+  | "comprehensive-application-monitoring"
+  | "streamlining-development-and-operations"
   | "automation-in-devops"
   | "performance-metrics-and-monitoring"
-  | "end-to-end-implementation-and-support" 
-  | "integration-with-existing-and-new-solution" 
-  | "training-and-knowledge-transfer" 
-  | "intelligent-chatbots-for-engagement" 
-  | "customizable-solutions" 
-  | "leveraging-automation-technologies" 
-  | "process-optimization" 
+  | "end-to-end-implementation-and-support"
+  | "integration-with-existing-and-new-solution"
+  | "training-and-knowledge-transfer"
+  | "intelligent-chatbots-for-engagement"
+  | "customizable-solutions"
+  | "leveraging-automation-technologies"
+  | "process-optimization"
   | "scalability-and-flexibility"
-  | "aesthetic-and-user-friendly-designs" 
-  | "responsive-design-techniques" 
-  | "seo-friendly-solutions";
+  | "aesthetic-and-user-friendly-designs";
 
 const data = {
   "seo-friendly-solutions": {
