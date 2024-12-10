@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md';
 const Footer = () => {
     return (
         <footer className='bg-[#020a27] text-gray-300 py-8'>
-            <div className='max-w-6xl mx-auto px-4'>
+            <div className='max-w-7xl mx-auto px-4'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                     <div className='flex flex-col gap-4'>
                         <h3 className='uppercase text-lg font-semibold text-white'>About Company</h3>
@@ -40,15 +40,32 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-4'>
                         <h3 className='uppercase text-lg font-semibold text-white'>Contact Us</h3>
-                        <p className='flex items-center gap-2'>
-                            <FaMapMarkerAlt /> 1234 Street Name, City, State, 12345
-                        </p>
-                        <p className='flex items-center gap-2'>
-                            <FaPhoneVolume /> (123) 456-7890
-                        </p>
-                        <p className='flex items-center gap-2'>
-                            <MdEmail /> info@techthrivesystem.com
-                        </p>
+                        <div className='flex gap-8'>
+                            <div className='flex flex-col gap-2 w-2/3'>
+                                <h4 className='font-semibold'>UAE (Freeland Dubai)</h4>
+                                <p className='flex items-center gap-2'>
+                                    <FaPhoneVolume /> +971582464210, +971582459658
+                                </p>
+                                <p className='flex items-center gap-2'>
+                                    <MdEmail /> info@ttsys.in
+                                </p>
+                                <p className='flex items-center gap-2'>
+                                    <FaMapMarkerAlt /> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates
+                                </p>
+                            </div>
+                            <div className='flex flex-col gap-2 w-1/3'>
+                                <h4 className='font-semibold'>India (NCR)</h4>
+                                <p className='flex items-center gap-2'>
+                                    <FaPhoneVolume /> +911169266164
+                                </p>
+                                <p className='flex items-center gap-2'>
+                                    <MdEmail /> info@ttsys.in
+                                </p>
+                                <p className='flex items-center gap-2'>
+                                    <FaMapMarkerAlt /> Gaur City Centre, Noida Extension - 201301
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='mt-8 border-t border-gray-700 pt-4 text-center'>
