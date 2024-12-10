@@ -3,13 +3,6 @@ import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
 type ServiceKey = 
-  | "web-design-development"
-  | "mobile-app-development"
-  | "cultural-transformation"
-  | "e-commerce-development"
-  | "enterprise-solutions"
-  | "qa-testing"
-  | "ui-ux"
   | "robust-performance-monitoring-solutions"
   | "actionable-insights"
   | "user-experience-management"
@@ -31,6 +24,7 @@ type ServiceKey =
   | "seo-friendly-solutions";
 
 const data = {
+ 
   "seo-friendly-solutions": {
     desc: "We assist organisations in designing end-to-end customised web apps to address specific business objectives.",
     title1: "Web Design & Development",
@@ -468,35 +462,7 @@ const data = {
       },
     ]
   },
-  "qa-testing": {
-    desc: "By using our quality assurance services, you can create high quality products and provide remarkable customer experiences.",
-    title1: "QA & Testing",
-    img: "/images/individual-service/qa-testing.png",
-    para1: "Techthrivesystem's managed software quality assurance services ensure that your output is consistently of the highest calibre. We provide guidance on the best quality assurance procedures and assist in their creation and application. We provide outstanding QA automation testing services to assist businesses in reducing time-to-market while maintaining a high level of quality. Our QA team assists businesses in finding, examining, and resolving problems that affect the performance of their products at peak load.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Improved Efficiency",
-        desc: "We can help businesses streamline their operations, automate manual tasks, and reduce the time and resources required to complete tasks, leading to improved efficiency."
-      },
-      {
-        title: "Enhanced customer satisfaction",
-        desc: "By ensuring the software is free of defects and meets the customer's needs, the customer is more satisfied with the product. This results in improved customer loyalty, repeat business, and positive reviews."
-      },
-      {
-        title: "Reduced costs",
-        desc: "By detecting defects early in the software development cycle, the cost of fixing those defects is significantly lower than if they are found later. This also reduces the overall cost of development and maintenance of the software."
-      },
-      {
-        title: "Improved software quality",
-        desc: "QA and Testing services help to identify and fix defects and bugs in the software application before it is released to the end-users. This ensures that the software is of high quality and meets the customer's expectations."
-      },
-      {
-        title: "Compliance with standards and regulations",
-        desc: "Many industries have strict regulations and standards that software applications must adhere to. QA and Testing services ensure that the software complies with these regulations and standards."
-      },
-    ]
-  },
+ 
   "it-service-management-optimization": {
     desc: "We combine robust functionality with appealing visuals to give your vision a significant presence.",
     title1: "UI & UX Development",
