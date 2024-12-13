@@ -40,7 +40,7 @@ const services = {
         "Scalability and Flexibility",
         "Integration with Existing Systems"
     ],
-    "WEB DESIGNING": [
+    "WEB AND APP DESIGNING": [
         "Aesthetic and User-Friendly Designs",
         "Responsive Web Design",
         "SEO-Friendly Solutions"
@@ -67,7 +67,7 @@ const Navbar = () => {
             <nav className='flex justify-between items-center py-1 px-4 max-w-6xl w-full mx-auto'>
                 <div onClick={() => { handleClick(); }} className='text-[#1A1F65]'>
                     <Link href="/" className='text-2xl font-bold'>
-                        <Image src={"/images/logo-new.png"} width={150} height={50} alt='logo' />
+                        <Image src={"/images/techthrivesystem-logo.png"} width={150} height={50} alt='logo' />
                     </Link>
                 </div>
                 <div className='md:hidden block text-4xl' onClick={() => setMenuStatus((pre) => (!pre))}>
