@@ -5,29 +5,14 @@ import Carousel from "react-multi-carousel";
 
 const data = [
     {
-        desc: "Their creative solutions and prompt service made all the difference for our digital campaigns. We couldn't be happier!",
-        name: "Sumit Saurabh",
-        desig: "Marketing Director at Creative Agency",
+        desc: "TTS helped us transform our entire IT infrastructure. Their expert team guided us every step of the way.",
+        name: "Josei",
+        desig: "",
     },
     {
-        desc: "As a startup, we needed a reliable IT partner, and Techthrivesystem exceeded our expectations. Their team is knowledgeable and always ready to help!",
-        name: "David P.",
-        desig: "Founder of StartUp Co.",
-    },
-    {
-        desc: "We were impressed with how quickly Techthrivesystem understood our needs and delivered tailored solutions. Fantastic service!",
-        name: "Kavita Singh",
-        desig: "HR Manager at Global Corp",
-    },
-    {
-        desc: "The team at Techthrivesystem transformed our IT infrastructure. Their expertise and support have been invaluable, and our productivity has soared!",
-        name: "Raj Kamal",
-        desig: "CEO of Tech Innovations Inc.",
-    },
-    {
-        desc: "From cybersecurity to network management, Techthrivesystem has been our go-to partner. Their proactive approach has kept us ahead of potential threats!",
-        name: "Rahul Kumar",
-        desig: "Operations Manager at Retail Hub",
+        desc: "Thanks to TTS automation services, we increased our productivity by 40%. Their solutions are a game-changer.",
+        name: "Manami",
+        desig: "",
     },
 ]
 
