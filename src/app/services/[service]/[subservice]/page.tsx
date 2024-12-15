@@ -37,7 +37,7 @@ type ServiceKey =
   | "integration-with-existing-systems"
 
   | "aesthetic-and-user-friendly-designs"
-  | "responsive-design-techniques"
+  | "responsive-web-design"
   | "seo-friendly-solutions"
   | "user-centric-design-approach"
   | "continuous-design-iteration-and-testing";
@@ -47,7 +47,7 @@ const data = {
   "seo-friendly-solutions": {
     "desc": "Implement SEO-friendly strategies that enhance your website's visibility and drive organic traffic by adhering to best SEO practices.",
     "title1": "SEO-Friendly Solutions",
-    "img": "/images/services/seo-friendly.png",
+    "img": "/images/individual-service/ui-ux.png",
     "para1": "Our SEO-friendly solutions focus on optimizing your website to improve its ranking on search engines like Google. By utilizing best SEO practices, we ensure that your website is easily discoverable by search engines, driving more organic traffic to your site. From technical SEO to content optimization, we implement strategies that enhance your website’s visibility, performance, and user engagement, all while following up-to-date search engine guidelines and algorithms.",
     "title2": "Benefits of SEO-Friendly Solutions",
     "items": [
@@ -88,7 +88,7 @@ const data = {
   "continuous-design-iteration-and-testing": {
     "desc": "Adopting a continuous approach to design and testing ensures that the product evolves based on real user feedback, leading to improved usability and performance.",
     "title1": "Continuous Design Iteration and Testing",
-    "img": "/images/services/continuous-design.png",
+    "img": "/images/individual-service/automation.png",
     "para1": "Our continuous design iteration and testing process focuses on creating an agile design environment where feedback is regularly gathered and used to refine and improve the user experience. By continuously testing design concepts, prototypes, and finished products with real users, we ensure that our designs remain relevant, functional, and engaging. This iterative approach leads to a product that aligns closely with user needs and preferences while minimizing risk and reducing costly mistakes.",
     "title2": "Benefits of Continuous Design Iteration and Testing",
     "items": [
@@ -129,7 +129,7 @@ const data = {
   "user-centric-design-approach": {
     "desc": "Designing with the user in mind to create intuitive, engaging, and accessible experiences that meet their needs and expectations.",
     "title1": "User-Centric Design Approach",
-    "img": "/images/services/user-centric-design.png",
+    "img": "/images/individual-service/web-design-development.png",
     "para1": "Our user-centric design approach focuses on placing the end user at the heart of the design process. By understanding user behavior, needs, and pain points, we craft intuitive and seamless experiences that drive engagement and satisfaction. Whether designing web apps, mobile apps, or other digital products, we ensure that every design decision aligns with the goals and preferences of the user, resulting in better outcomes for both businesses and users.",
     "title2": "Benefits of a User-Centric Design Approach",
     "items": [
@@ -170,7 +170,7 @@ const data = {
   "cloud-migration-support": {
     "desc": "Facilitate seamless cloud transitions with expert cloud migration support, ensuring minimal disruption and optimized cloud environments.",
     "title1": "Cloud Migration Support",
-    "img": "/images/services/cloud-migration.png",
+    "img": "/images/individual-service/blockchain.png",
     "para1": "Cloud migration support helps organizations transition their existing systems, applications, and data to the cloud. By leveraging the right tools and strategies, businesses can ensure a smooth, cost-effective migration process with minimal disruption and long-term scalability in the cloud.",
     "title2": "Benefits of Cloud Migration Support",
     "items": [
@@ -203,7 +203,7 @@ const data = {
   "security-integration-(devsecops)": {
     "desc": "Integrate security into every phase of the software development lifecycle with DevSecOps practices, ensuring robust protection and compliance.",
     "title1": "Security Integration (DevSecOps)",
-    "img": "/images/services/devsecops.png",
+    "img": "/images/individual-service/automation.png",
     "para1": "DevSecOps integrates security measures directly into the DevOps process, ensuring that security is a shared responsibility throughout the development lifecycle. By embedding security practices early and throughout the process, organizations can identify vulnerabilities faster and respond proactively, ensuring secure, compliant, and reliable applications.",
     "title2": "Benefits of DevSecOps Integration",
     "items": [
@@ -236,7 +236,7 @@ const data = {
   "servicenow-integration": {
     "desc": "Seamlessly integrate ServiceNow with other systems and tools to create a unified, efficient IT ecosystem.",
     "title1": "ServiceNow Integration Solutions",
-    "img": "/images/services/servicenow-integration.png",
+    "img": "/images/individual-service/service-now-consulting.png",
     "para1": "Our ServiceNow integration services enable organizations to connect the platform with their existing IT systems and third-party tools. By creating a cohesive ecosystem, we help businesses improve collaboration, streamline workflows, and achieve higher levels of operational efficiency.",
     "title2": "How Our ServiceNow Integration Solutions Benefit Businesses",
     "items": [
@@ -269,7 +269,7 @@ const data = {
   "custom-servicenow-applications": {
     "desc": "Develop tailored ServiceNow applications to address unique business needs, drive innovation, and achieve operational excellence.",
     "title1": "Custom ServiceNow Application Development",
-    "img": "/images/services/custom-servicenow-applications.png",
+    "img": "/images/individual-service/workday-services.png",
     "para1": "Our custom ServiceNow application development services are designed to help businesses extend the capabilities of the ServiceNow platform. By building applications that address specific challenges and opportunities, we enable organizations to unlock new value and improve their overall efficiency.",
     "title2": "How Our Custom ServiceNow Applications Benefit Businesses",
     "items": [
@@ -302,7 +302,7 @@ const data = {
   "servicenow-support-and-maintenance": {
     "desc": "Ensure optimal performance and reliability of your ServiceNow platform with our dedicated support and maintenance services.",
     "title1": "ServiceNow Support and Maintenance",
-    "img": "/images/services/servicenow-support-maintenance.png",
+    "img": "/images/individual-service/staffing-services.png",
     "para1": "Our ServiceNow support and maintenance services are designed to help businesses keep their ServiceNow instances running smoothly and efficiently. We provide proactive monitoring, issue resolution, and regular updates to ensure that your platform evolves with your business needs.",
     "title2": "How Our Support and Maintenance Services Benefit Businesses",
     "items": [
@@ -335,7 +335,7 @@ const data = {
   "infrastructure-as-code-(iac)": {
     "desc": "Streamline your infrastructure management with Infrastructure as Code (IaC), enabling consistent, automated, and scalable deployments.",
     "title1": "Infrastructure as Code (IaC)",
-    "img": "/images/services/iac.png",
+    "img": "/images/services/devimg.jpg",
     "para1": "Infrastructure as Code (IaC) is a key DevOps practice that automates the provisioning and management of IT infrastructure using code. By adopting IaC, organizations can eliminate manual processes, reduce errors, and achieve faster, more reliable deployments.",
     "title2": "Advantages of Implementing IaC",
     "items": [
@@ -365,10 +365,10 @@ const data = {
       }
     ]
   },
-  "responsive-design-techniques": {
+  "responsive-web-design": {
     "desc": "Implement responsive design strategies that ensure a seamless and optimized user experience across all devices and screen sizes.",
     "title1": "Responsive Design Techniques",
-    "img": "/images/services/responsive-design.png",
+    "img": "/images/individual-service/web-design-development.png",
     "para1": "Responsive design techniques focus on creating flexible, adaptive layouts that provide a consistent and user-friendly experience, regardless of the device used. Our approach ensures that your website or application automatically adjusts to different screen sizes, from mobile phones to large desktop monitors, delivering the best possible user experience. We utilize cutting-edge techniques such as fluid grids, media queries, and flexible images to achieve a responsive design that meets modern user expectations.",
     "title2": "Benefits of Responsive Design Techniques",
     "items": [
@@ -405,7 +405,7 @@ const data = {
   "aesthetic-and-user-friendly-designs": {
     "desc": "Create visually appealing and easy-to-use designs that enhance user experience and engagement across platforms.",
     "title1": "Aesthetic and User-Friendly Designs",
-    "img": "/images/services/designs.png",
+    "img": "/images/services-card/web.webp",
     "para1": "Our design approach focuses on creating aesthetically pleasing and highly functional user interfaces that align with your business goals and meet your audience's needs. By combining innovative design principles with usability best practices, we ensure that users not only find your platform visually appealing but also intuitive and easy to navigate. We focus on crafting designs that enhance user experience, boost engagement, and improve satisfaction.",
     "title2": "Benefits of Aesthetic and User-Friendly Designs",
     "items": [
@@ -438,7 +438,7 @@ const data = {
   "integration-with-existing-systems": {
     "desc": "Seamlessly integrate your new systems with existing ones to streamline operations, improve data flow, and enhance overall efficiency.",
     "title1": "Integration with Existing Systems",
-    "img": "/images/services/integration-systems.png",
+    "img": "/images/services/devimg.jpg",
     "para1": "Integrating new solutions with your existing systems ensures that your business operations run smoothly without disruption. We specialize in creating seamless integrations that allow new technologies to complement and enhance your current infrastructure. Whether you're connecting new software with legacy systems or aligning multiple systems to work together, our solutions ensure smooth data transfer, increased operational efficiency, and reduced manual work.",
     "title2": "Benefits of Integration with Existing Systems",
     "items": [
@@ -471,7 +471,7 @@ const data = {
  "scalability-and-flexibility": {
     "desc": "Enhance your organization's ability to grow and adapt to changing business needs by implementing scalable solutions that offer flexibility across various operations.",
     "title1": "Scalability and Flexibility",
-    "img": "/images/services/scalability-flexibility.png",
+    "img": "/images/individual-service/data-science.png",
     "para1": "Scalability and flexibility are critical for businesses looking to grow and adjust to market dynamics. Our solutions ensure that your infrastructure, processes, and technologies can easily scale as your business expands, while maintaining the agility to respond to new opportunities and challenges. We help you design and implement systems that provide the flexibility needed to innovate and the scalability to manage growth effectively.",
     "title2": "Benefits of Scalability and Flexibility",
     "items": [
@@ -504,7 +504,7 @@ const data = {
   "process-optimization": {
     "desc": "Streamline and enhance business processes to boost efficiency, reduce waste, and ensure a seamless flow of operations across all departments.",
     "title1": "Process Optimization",
-    "img": "/images/services/process-optimization.png",
+    "img": "/images/individual-service/qa-testing.png",
     "para1": "Process optimization focuses on refining business operations by identifying inefficiencies, eliminating bottlenecks, and introducing improvements. Our approach helps businesses achieve better productivity, reduced operational costs, and a more agile response to market changes. We apply proven methodologies to optimize processes, ensuring that resources are used effectively, and business goals are achieved faster and more efficiently.",
     "title2": "Benefits of Process Optimization",
     "items": [
@@ -537,7 +537,7 @@ const data = {
   "leveraging-automation-technologies": {
     "desc": "Enhance operational efficiency and reduce manual workloads by leveraging the power of automation technologies across various business functions.",
     "title1": "Leveraging Automation Technologies",
-    "img": "/images/services/leveraging-automation.png",
+    "img": "/images/services-card/automation.webp",
     "para1": "Automation technologies have the power to revolutionize your business by streamlining processes, reducing human error, and improving productivity. We help you implement automation solutions across various functions such as IT operations, customer service, marketing, and more, allowing your organization to achieve faster outcomes, greater consistency, and higher-quality results.",
     "title2": "Benefits of Leveraging Automation Technologies",
     "items": [
@@ -570,7 +570,7 @@ const data = {
   "integration-with-existing-channels": {
     "desc": "Seamlessly integrate new systems and solutions with your existing channels to ensure consistency and optimize customer interactions.",
     "title1": "Integration with Existing Channels",
-    "img": "/images/services/integration-with-channels.png",
+    "img": "/images/individual-service/automation.png",
     "para1": "Our integration services ensure that new systems, applications, or solutions seamlessly work with your existing communication channels. Whether you are using email, social media, CRM systems, or other platforms, we ensure smooth data flow and operational continuity, providing you with the ability to leverage your current infrastructure while enhancing performance and scalability.",
     "title2": "Benefits of Integration with Existing Channels",
     "items": [
@@ -603,7 +603,7 @@ const data = {
   "customizable-solutions": {
     "desc": "Create tailored solutions that align perfectly with your business goals, offering flexibility and adaptability to meet your unique needs.",
     "title1": "Customizable Solutions",
-    "img": "/images/services/customizable-solutions.png",
+    "img": "/images/services-card/development.jpg",
     "para1": "Our customizable solutions are designed to give you the flexibility to adapt technology to your specific business needs. We understand that every organization has unique requirements, and we offer bespoke solutions that can be easily modified to meet your evolving goals, ensuring maximum efficiency, scalability, and long-term success.",
     "title2": "Benefits of Customizable Solutions",
     "items": [
@@ -636,7 +636,7 @@ const data = {
   "intelligent-chatbots-for-engagement": {
     "desc": "Leverage the power of AI-driven chatbots to enhance customer engagement, automate tasks, and provide real-time assistance.",
     "title1": "Intelligent Chatbots for Engagement",
-    "img": "/images/services/intelligent-chatbots.png",
+    "img": "/images/services-card/chatbots.webp",
     "para1": "Our intelligent chatbots are designed to streamline customer interactions, providing instant support and enhancing the overall user experience. By integrating artificial intelligence, our chatbots offer personalized conversations, automate repetitive tasks, and ensure consistent communication across various platforms, improving both customer satisfaction and operational efficiency.",
     "title2": "Benefits of Intelligent Chatbots for Engagement",
     "items": [
@@ -669,7 +669,7 @@ const data = {
   "performance-metrics-and-monitoring": {
     "desc": "Gain actionable insights into system performance with robust metrics and monitoring solutions tailored to your needs.",
     "title1": "Performance Metrics and Monitoring",
-    "img": "/images/services/performance-metrics-monitoring.png",
+    "img": "/images/services/devimg.jpg",
     "para1": "Performance metrics and monitoring are critical components of modern DevOps practices, enabling organizations to track, analyze, and optimize their systems in real time. By implementing comprehensive monitoring solutions, businesses can ensure high availability, identify bottlenecks, and deliver seamless user experiences.",
     "title2": "Benefits of Performance Metrics and Monitoring",
     "items": [
@@ -702,7 +702,7 @@ const data = {
   "continuous-integration-and-delivery-(ci-cd)": {
     "desc": "Accelerate your software development lifecycle with efficient CI/CD practices that ensure rapid delivery and high-quality applications.",
     "title1": "Continuous Integration and Delivery (CI/CD)",
-    "img": "/images/services/ci-cd.png",
+    "img": "/images/individual-service/blockchain.png",
     "para1": "Continuous Integration and Delivery (CI/CD) is a cornerstone of modern software development, enabling teams to automate the integration and deployment process. By adopting CI/CD pipelines, organizations can ensure faster time-to-market, improved code quality, and seamless collaboration across teams.",
     "title2": "Key Benefits of CI/CD Practices",
     "items": [
@@ -735,7 +735,7 @@ const data = {
  "comprehensive-servicenow-solutions": {
     "desc": "Leverage the full capabilities of ServiceNow to optimize workflows, enhance IT service management, and improve operational efficiency.",
     "title1": "Comprehensive ServiceNow Solutions",
-    "img": "/images/services/mobile-app-development.png",
+    "img": "/images/individual-service/service-now-consulting.png",
     "para1": "Our comprehensive ServiceNow solutions are designed to help organizations optimize IT operations, automate workflows, and improve overall efficiency. With a focus on customization and scalability, we empower businesses to fully utilize the ServiceNow platform to meet their unique needs.",
     "title2": "How Our Comprehensive ServiceNow Solutions Benefit Businesses",
     "items": [
@@ -768,7 +768,7 @@ const data = {
   "training-and-knowledge-transfer": {
     "desc": "Empower your team with the skills and knowledge they need through comprehensive training and knowledge transfer programs.",
     "title1": "Training and Knowledge Transfer",
-    "img": "/images/services/training-knowledge-transfer.png",
+    "img": "/images/services/training.webp",
     "para1": "Our training and knowledge transfer services are designed to equip your team with the essential skills and expertise required to effectively operate and manage new solutions. We provide tailored training sessions, workshops, and documentation to ensure a smooth transition and enable long-term success in adopting new technologies.",
     "title2": "Benefits of Training and Knowledge Transfer",
     "items": [
@@ -798,69 +798,11 @@ const data = {
       }
     ]
   },
-  "e-commerce-development": {
-    desc: "E-commerce solutions to empower you with customer retention and your digital business goals",
-    title1: "E-commerce Development",
-    img: "/images/individual-service/e-commerce-development.png",
-    para1: "Techthrivesystem offers a comprehensive range of e-commerce web development services along with expertise in design, implementation, migration, support, and maintenance. We assist in enhancing client satisfaction, growing audiences, and generating revenue. We ensure that the best development technologies and a strong business plan are used to create your website.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Increased reach",
-        desc: "E-commerce development allows businesses to reach customers beyond their geographical location. Consumers can access the online store at any time and from any place in the world, making it extremely convenient and accessible."
-      },
-      {
-        title: "Higher conversion rates",
-        desc: "E-commerce websites are made to be easy to use and offer smooth automated processes, such as inventory management, order tracking, and payment processing. Compared to conventional physical stores, this results in better conversion rates."
-      },
-      {
-        title: "Flexibility",
-        desc: "Businesses can quickly adjust to shifting market conditions and client expectations because of e-commerce development. The online business can easily add new products or services to the store, and prices can be changed promptly."
-      },
-      {
-        title: "Cost-effective",
-        desc: "E-commerce development is the most cost-effective method of selling goods or services online. Physical stores are no longer required, which lowers the overhead expenses for renting, infrastructure, utilities, and staff."
-      },
-      {
-        title: "Improved customer insights",
-        desc: "E-commerce websites give businesses access to useful data and insights about their customers. This data can be used to create targeted marketing campaigns, improve product offerings, and enhance the overall customer experience."
-      },
-    ]
-  },
-  "enterprise-solutions": {
-    desc: "The business consulting practice at Techthrivesystem has improved the lives of numerous business owners and preserved the jobs and careers of a few thousand workers.",
-    title1: "Enterprise Solution",
-    img: "/images/individual-service/enterprise-solutions.png",
-    para1: "Techthrivesystem is distinctive in a variety of ways, including our way of thinking, how we address problems, how we engage with clients, and how we come up with creative solutions. We provide business solutions that focus on outcomes and return on investment. To ensure turnaround time is as quick as possible, we concentrate on the pain points for our clients and offer tailored solutions.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Improved Efficiency",
-        desc: "We can help businesses streamline their operations, automate manual tasks, and reduce the time and resources required to complete tasks, leading to improved efficiency."
-      },
-      {
-        title: "Better Data Management",
-        desc: "Our team can help businesses manage their data more effectively by providing a centralized platform to store, manage and access data, which improves accuracy and reduces the risk of data loss."
-      },
-      {
-        title: "Improved Decision Making",
-        desc: "Enterprise solutions, such as business intelligence and analytics tools, provide businesses with valuable insights and data, which can help them make better-informed business decisions."
-      },
-      {
-        title: "Increased Collaboration",
-        desc: "We provide a centralized platform for communication and collaboration, allowing team members to work together more efficiently and effectively."
-      },
-      {
-        title: "Better Customer Service",
-        desc: "Enterprise solutions, such as CRM systems, enable businesses to improve customer service by providing a comprehensive view of customer data, facilitating effective communication and collaboration with customers."
-      },
-    ]
-  },
- 
+
   "it-service-management-optimization": {
     "desc": "Optimize your IT service management processes to enhance efficiency, reduce downtime, and improve service delivery.",
     "title1": "IT Service Management Solutions",
-    "img": "/images/services/ui-ux.png",
+    "img": "/images/services/itconsulting.png",
     "para1": "Our IT service management optimization services are tailored to ensure seamless operations and enhanced service delivery. By leveraging best practices and advanced technologies, we help organizations improve IT processes, reduce costs, and align IT services with business objectives.",
     "title2": "How Our IT Service Management Solutions Benefit Businesses",
     "items": [
@@ -893,7 +835,7 @@ const data = {
  "robust-performance-monitoring-solutions": {
     "desc": "Ensure superior application performance and user experience with our robust performance monitoring solutions.",
     "title1": "Robust Performance Monitoring Solutions",
-    "img": "/images/services/performance-monitoring.png",
+    "img": "/images/services-card/dynatrace.webp",
     "para1": "Our robust performance monitoring solutions offer real-time tracking and detailed insights into your applications, infrastructure, and systems. We help businesses prevent performance degradation, optimize speed, and deliver exceptional experiences to users across platforms.",
     "title2": "How Our Performance Monitoring Solutions Benefit Businesses",
     "items": [
@@ -926,7 +868,7 @@ const data = {
   "actionable-insights": {
     "desc": "Transform data into actionable insights to drive informed decision-making and strategic business outcomes.",
     "title1": "Actionable Insights for Business Success",
-    "img": "/images/services/actionable-insights.png",
+    "img": "/images/services/actionable.webp",
     "para1": "Our actionable insights services empower organizations to harness the full potential of their data. By analyzing and interpreting key data points, we provide clear, actionable recommendations that help businesses make informed decisions and drive strategic growth.",
     "title2": "How Our Actionable Insights Benefit Businesses",
     "items": [
@@ -957,39 +899,35 @@ const data = {
     ]
   },
   "workflow-automation": {
-    desc: "For your audience to understand the value of XR on an enterprise scale, create lifelike XR experiences, such as virtual reality apps and augmented reality software.",
-    title1: "Extended Reality Services",
-    img: "/images/individual-service/extended-reality.png",
-    para1: "Techthrivesystem guides the XR and 5G ecosystem towards a split-rendering architecture that offers an effective end-to-end solution. Increase audience engagement by creating immersive experiences. We will assist you in creating and delivering immersive experiences by leveraging Extended Reality (XR) technologies like augmented, virtual, or mixed realities.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Better customer experiences",
-        desc: "We use extended reality to create virtual showrooms, product demonstrations, and other experiences that allow customers to interact with products and services in a more immersive way."
-      },
-      {
-        title: "Improved training and education",
-        desc: "We use extended reality to create interactive training and educational materials that allow users to learn by doing. This can be especially beneficial in fields where hands-on experience is critical, such as medicine or engineering."
-      },
-      {
-        title: "Competitive advantage",
-        desc: "IT companies can differentiate themselves from their competitors and position themselves as leaders in the industry."
-      },
-      {
-        title: "Enhanced user engagement",
-        desc: "We provide immersive experiences that can engage users in a way that traditional methods cannot. This can lead to increased user engagement and interest in the company's products or services."
-      },
-      {
-        title: "Increased efficiency and productivity",
-        desc: "We use extended reality to create virtual workspaces and training environments, which can increase efficiency and productivity by reducing the need for physical resources and travel."
-      }
+    "desc": "Streamline Your Business Processes with Workflow Automation",
+    "title1": "Workflow Automation Services",
+    "img": "/images/services/workflow.webp",
+    "para1": "Our workflow automation services help you streamline and optimize your business processes, reducing manual effort and increasing efficiency. By automating repetitive tasks and workflows, we enable your organization to focus on strategic initiatives and achieve higher productivity. From initial assessment and design to implementation and ongoing support, we provide comprehensive workflow automation solutions tailored to your unique needs.",
+    "title2": "Benefits of Our Workflow Automation Services",
+    "items": [
+        {
+            "title": "Increased Efficiency",
+            "desc": "Automate repetitive tasks and processes to reduce manual effort and increase overall efficiency. Our workflow automation solutions help you save time and resources, allowing your team to focus on more strategic activities."
+        },
+        {
+            "title": "Improved Accuracy",
+            "desc": "Reduce the risk of human error by automating data entry and other manual processes. Our workflow automation services ensure that your business operations run smoothly and accurately, enhancing data integrity and reliability."
+        },
+        {
+            "title": "Enhanced Collaboration",
+            "desc": "Facilitate better collaboration and communication across your organization with automated workflows. Our solutions enable seamless information sharing and coordination, improving teamwork and productivity."
+        },
+        {
+            "title": "Scalability",
+            "desc": "Easily scale your business operations with our flexible workflow automation solutions. As your organization grows, our automation services can adapt to your changing needs, ensuring continuous improvement and efficiency."
+        }
     ]
-  },
+},
 
   "user-experience-management": {
     "desc": "Enhance customer satisfaction and loyalty by delivering superior, personalized user experiences across all touchpoints.",
     "title1": "User Experience Management Solutions",
-    "img": "/images/services/user-experience-management.png",
+    "img": "/images/services/user.webp",
     "para1": "Our user experience management services are designed to help businesses create and maintain outstanding experiences that resonate with their customers. By focusing on usability, engagement, and personalization, we enable organizations to foster stronger customer relationships and achieve greater success.",
     "title2": "How Our User Experience Management Services Benefit Businesses",
     "items": [
@@ -1022,7 +960,7 @@ const data = {
   "comprehensive-application-monitoring": {
     "desc": "Ensure optimal application performance with comprehensive monitoring that detects issues before they impact your business.",
     "title1": "Comprehensive Application Monitoring Solutions",
-    "img": "/images/services/application-monitoring.png",
+    "img": "/images/services/monitoring.webp",
     "para1": "Our comprehensive application monitoring services help organizations proactively track and resolve performance issues in real-time. By providing deep insights into application health, we help businesses ensure smooth operations, minimize downtime, and enhance user experience.",
     "title2": "How Our Application Monitoring Solutions Benefit Businesses",
     "items": [
@@ -1055,7 +993,7 @@ const data = {
   "automation-in-devops": {
     "desc": "Streamline your DevOps practices with advanced automation techniques that enhance speed, consistency, and collaboration.",
     "title1": "Automation in DevOps",
-    "img": "/images/services/automation-devops.png",
+    "img": "/images/services-card/automation.webp",
     "para1": "Automation is the backbone of successful DevOps implementation. It minimizes manual effort, reduces errors, and accelerates delivery cycles by integrating advanced tools and practices across the development and operations lifecycle. With automation, teams can achieve seamless collaboration, faster releases, and improved system reliability.",
     "title2": "How Automation Transforms DevOps Practices",
     "items": [
@@ -1088,7 +1026,7 @@ const data = {
   "cultural-transformation": {
     "desc": "Empower your organization with a cultural transformation that fosters collaboration, innovation, and continuous improvement.",
     "title1": "Cultural Transformation in DevOps",
-    "img": "/images/services/cultural-transformation.png",
+    "img": "/images/services/transformation.webp",
     "para1": "Cultural transformation is at the heart of DevOps, promoting a mindset of collaboration, shared responsibility, and continuous improvement. It helps break down silos between teams, fosters trust, and ensures alignment towards common business goals. By embracing a DevOps culture, organizations can achieve enhanced efficiency, innovation, and adaptability.",
     "title2": "How Cultural Transformation Drives DevOps Success",
     "items": [
@@ -1121,7 +1059,7 @@ const data = {
  "streamlining-development-and-operations": {
     "desc": "Achieve harmony between development and operations teams with streamlined processes that drive efficiency and innovation.",
     "title1": "Streamlining Development and Operations",
-    "img": "/images/services/streamlining-dev-ops.png",
+    "img": "/images/services/devimg.jpg",
     "para1": "Streamlining development and operations is a core principle of DevOps, ensuring that both teams work together seamlessly. By unifying workflows, enhancing communication, and automating repetitive tasks, organizations can achieve faster delivery, improved quality, and reduced operational bottlenecks. This approach aligns goals and fosters collaboration across the software lifecycle.",
     "title2": "How Streamlining Enhances DevOps Practices",
     "items": [
@@ -1154,7 +1092,7 @@ const data = {
   "end-to-end-implementation-and-support": {
     "desc": "We provide comprehensive solutions that ensure seamless project implementation and ongoing support throughout the entire lifecycle.",
     "title1": "End-to-End Implementation and Support",
-    "img": "/images/services/end-to-end-implementation.png",
+    "img": "/images/services/itconsulting.png",
     "para1": "Our end-to-end implementation and support services cover every stage of your project's lifecycle, from initial design and planning to deployment and continuous support. We ensure that your business requirements are met with precision and efficiency, allowing for seamless integration, optimized performance, and ongoing system improvements.",
     "title2": "Benefits of End-to-End Implementation and Support",
     "items": [
@@ -1188,7 +1126,7 @@ const data = {
  "integration-with-existing-and-new-solution": {
     "desc": "Seamlessly integrate your existing systems with new solutions to enhance functionality and improve business processes.",
     "title1": "Integration with Existing and New Solutions",
-    "img": "/images/services/integration-solutions.png",
+    "img": "/images/services/solution.webp",
     "para1": "Our integration services enable businesses to seamlessly connect their existing systems with new, innovative solutions. Whether integrating legacy systems with modern technologies or combining multiple software platforms, we ensure that your solutions work together harmoniously to drive operational efficiency, reduce complexity, and improve overall performance.",
     "title2": "Benefits of Integration with Existing and New Solutions",
     "items": [
@@ -1217,38 +1155,8 @@ const data = {
         "desc": "Integration helps centralize data from multiple sources, providing a unified view of your business and enabling more informed decision-making."
       }
     ]
-  }
-,
-  
-  "salesforce-consulting": {
-    desc: "Assisting numbers of people in realising the full potential of your Salesforce implementation, work with our team of certified Salesforce consultants and technologists.",
-    title1: "Salesforce Consulting Services",
-    img: "/images/individual-service/salesforce-consulting.png",
-    para1: "Techthrivesystem will improve the customer experience while transforming the way your business operates. Your business can benefit from greater efficiency and a higher return on investment by implementing Salesforce applications and working with a Certified Salesforce Consultant. As a certified Salesforce consultant, we assist you in growing your company by developing CRM tools tailored to your industry.",
-    title2: "How our services benefit businesses",
-    items: [
-      {
-        title: "Improved Efficiency",
-        desc: "We can help streamline business processes and automate manual tasks. This can result in increased productivity and efficiency, as well as cost savings."
-      },
-      {
-        title: "Customized Solutions",
-        desc: "We can help businesses tailor the Salesforce platform to their specific needs. Consultants can help businesses develop custom workflows and integrations."
-      },
-      {
-        title: "Expertise and Support",
-        desc: "We are experts in the platform and can provide guidance and support to businesses throughout the implementation and maintenance process."
-      },
-      {
-        title: "Data Analytics",
-        desc: "We can help businesses leverage the platform's powerful analytics capabilities to gain insights into customer behavior and preferences."
-      },
-      {
-        title: "Scalability",
-        desc: "We can help businesses scale their operations as they grow. Our consultants can help businesses optimize their Salesforce deployment."
-      }
-    ]
   },
+
   "service-now-consulting": {
     desc: "Services that will empower your business maximize the use of the ServiceNow platform by delivering innovative solutions.",
     title1: "Servicenow Consulting Services",
