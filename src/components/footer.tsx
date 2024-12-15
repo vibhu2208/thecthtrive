@@ -50,7 +50,7 @@ const Footer = () => {
                                     <MdEmail /> info@ttsys.in
                                 </p>
                                 <p className='flex items-center gap-2'>
-                                    <FaMapMarkerAlt /> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates
+                                    <FaMapMarkerAlt /> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, Dubai Digital Park, United Arab Emirates
                                 </p>
                             </div>
                             <div className='flex flex-col gap-2 w-1/3'>
