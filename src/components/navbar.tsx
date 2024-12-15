@@ -67,7 +67,7 @@ const Navbar = () => {
             <nav className='flex justify-between items-center py-1 px-4 max-w-6xl w-full mx-auto'>
                 <div onClick={() => { handleClick(); }} className='text-[#1A1F65]'>
                     <Link href="/" className='text-2xl font-bold'>
-                        <Image src={"/images/techthrivesystem-logo.png"} width={150} height={50} alt='logo' />
+                        <Image src={"/images/techthrivesystem-logo2.jpg"} width={150} height={50} alt='logo' className='w-auto h-12 object-contain'/>
                     </Link>
                 </div>
                 <div className='md:hidden block text-4xl' onClick={() => setMenuStatus((pre) => (!pre))}>
