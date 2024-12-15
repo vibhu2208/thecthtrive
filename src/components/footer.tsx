@@ -40,30 +40,47 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-4'>
                         <h3 className='uppercase text-lg font-semibold text-white'>Contact Us</h3>
-                        <div className='flex gap-8'>
-                            <div className='flex flex-col gap-2 w-2/3'>
-                                <h4 className='font-semibold'>UAE (Freeland Dubai)</h4>
-                                <p className='flex items-center gap-2'>
-                                    <FaPhoneVolume /> +971582464210, +971582459658
-                                </p>
-                                <p className='flex items-center gap-2'>
-                                    <MdEmail className='text-base' /> info@ttsys.in
-                                </p>
-                                <p className='flex items-center gap-2'>
-                                    <FaMapMarkerAlt className='text-2xl'/> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, United Arab Emirates
-                                </p>
+                        <div className='grid grid-cols-2 gap-4'>
+                            {/* UAE Contact */}
+                            <div className='flex flex-col gap-2'>
+                                <h4 className='font-semibold text-white'>UAE (Freeland Dubai)</h4>
+                                <div className='flex items-center gap-2'>
+                                    <FaPhoneVolume className='text-[#0f588c]' />
+                                    <span>+971 582 464 210</span>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <FaPhoneVolume className='text-[#0f588c]' />
+                                    <span>+971 582 459 658</span>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <MdEmail className='text-[#0f588c]' />
+                                    <span>info@ttsys.in</span>
+                                </div>
+                                <div className='flex items-start gap-2'>
+                                    <FaMapMarkerAlt className='text-[#0f588c] mt-1' />
+                                    <span>PO Box 452318, IFZA Business Park, Building A1, UAE</span>
+                                </div>
                             </div>
-                            <div className='flex flex-col gap-2 w-1/3'>
-                                <h4 className='font-semibold'>India (NCR)</h4>
-                                <p className='flex items-center gap-2'>
-                                    <FaPhoneVolume /> +911169266164 +919266158800
-                                </p>
-                                <p className='flex items-center gap-2'>
-                                    <MdEmail /> info@ttsys.in
-                                </p>
-                                <p className='flex items-center gap-2'>
-                                    <FaMapMarkerAlt /> Gaur City Centre, Noida Extension - 201301
-                                </p>
+
+                            {/* India Contact */}
+                            <div className='flex flex-col gap-2'>
+                                <h4 className='font-semibold text-white'>India (NCR)</h4>
+                                <div className='flex items-center gap-2'>
+                                    <FaPhoneVolume className='text-[#0f588c]' />
+                                    <span>+91 116 926 6164</span>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <FaPhoneVolume className='text-[#0f588c]' />
+                                    <span>+91 926 615 8800</span>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <MdEmail className='text-[#0f588c]' />
+                                    <span>info@ttsys.in</span>
+                                </div>
+                                <div className='flex items-start gap-2'>
+                                    <FaMapMarkerAlt className='text-[#0f588c] mt-1' />
+                                    <span>Gaur City Centre, Noida Extension - 201301</span>
+                                </div>
                             </div>
                         </div>
                     </div>
