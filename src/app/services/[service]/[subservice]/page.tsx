@@ -92,7 +92,7 @@ const data = {
   "comprehensive-training-and-organizational-enablement": {
     "desc": "Empower organizations through comprehensive training programs and strategic enablement initiatives that foster innovation, skill development, and technological adaptation.",
     "title1": "Comprehensive Training and Organizational Enablement",
-    "img": "/images/individual-service/training.png",
+    "img": "/images/services/training.webp",
     "para1": "Comprehensive training and organizational enablement provide structured learning experiences and support mechanisms that help businesses develop their workforce's capabilities, embrace technological changes, and create a culture of continuous learning and innovation.",
     "title2": "Benefits of Comprehensive Training and Organizational Enablement",
     "items": [
@@ -125,7 +125,7 @@ const data = {
   "advanced-custom-dashboard-development": {
     "desc": "Create powerful, intuitive, and highly customized dashboards that transform complex data into actionable insights for informed decision-making.",
     "title1": "Advanced Custom Dashboard Development",
-    "img": "/images/individual-service/dashboard.png",
+    "img": "/images/services/dashboard.webp",
     "para1": "Advanced custom dashboard development enables organizations to visualize critical business metrics, track performance, and gain deep insights through tailored, interactive data visualization solutions. By converting raw data into meaningful, accessible information, businesses can drive strategic decision-making.",
     "title2": "Benefits of Advanced Custom Dashboard Development",
     "items": [
@@ -438,7 +438,7 @@ const data = {
   "strategic-implementation-and-holistic-support": {
     "desc": "Deliver comprehensive strategic planning and holistic support to drive organizational transformation and technological innovation.",
     "title1": "Strategic Implementation and Holistic Support",
-    "img": "/images/individual-service/strategy.png",
+    "img": "/images/services/strategy.webp",
     "para1": "Strategic implementation and holistic support provide organizations with end-to-end guidance in navigating complex technological and business challenges. By offering integrated solutions and comprehensive support, businesses can achieve sustainable growth and competitive advantage.",
     "title2": "Benefits of Strategic Implementation and Holistic Support",
     "items": [
