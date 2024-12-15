@@ -63,28 +63,28 @@ const Navbar = () => {
         }
     }
     return (
-        <header className='sticky top-0 z-[10001] bg-white border-b-[1px] border-gray-300 shadow max-h-[100vh] flex flex-col'>
+        <header className='sticky top-0 z-[10001] bg-[#1a1f65] border-b-[1px] border-gray-300 shadow max-h-[100vh] flex flex-col'>
             <nav className='flex justify-between items-center py-1 px-4 max-w-6xl w-full mx-auto'>
-                <div onClick={() => { handleClick(); }} className='text-[#1A1F65]'>
+                <div onClick={() => { handleClick(); }} className='text-[#ffffff]'>
                     <Link href="/" className='text-2xl font-bold'>
-                        <Image src={"/images/techthrivesystem-logo2.jpg"} width={150} height={50} alt='logo' className='w-auto h-12 object-contain'/>
+                        <Image src={"/images/techthrivesystem-logo.png"} width={150} height={50} alt='logo' />
                     </Link>
                 </div>
                 <div className='md:hidden block text-4xl' onClick={() => setMenuStatus((pre) => (!pre))}>
                     <IoMenuSharp />
                 </div>
                 <div className='md:flex gap-6 hidden'>
-                    <div onClick={() => { handleClick(); }} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/" ? "text-[#1A1F65]" : ""}`}>
+                    <div onClick={() => { handleClick(); }} className={`px-3 py-2 cursor-pointer font-semibold text-white ${pathname === "/" ? "text-[#ffffff]" : ""}`}>
                         <Link href={"/"} className='text-nowrap'>
                             Home
                         </Link>
                     </div>
-                    <div onClick={() => { handleClick(); }} className={`px-3 py-2 cursor-pointer font-semibold ${pathname === "/about-us" ? "text-[#1A1F65]" : ""}`}>
+                    <div onClick={() => { handleClick(); }} className={`px-3 py-2 cursor-pointer font-semibold text-white ${pathname === "/about-us" ? "text-[#ffffff]" : ""}`}>
                         <Link href={"/about-us"} className='text-nowrap'>
                             Why TechThrive System
                         </Link>
                     </div>
-                    <div onClick={() => { handleClick("showWhatWeDo") }} className={`px-3 py-2 cursor-pointer flex items-center font-semibold text-nowrap ${pathname.includes("/services") ? "text-[#1A1F65]" : ""}`}>
+                    <div onClick={() => { handleClick("showWhatWeDo") }} className={`px-3 py-2 cursor-pointer flex items-center font-semibold text-nowrap text-white ${pathname.includes("/services") ? "text-[#ffffff]" : ""}`}>
                         What We Do
                         <svg className="w-3 h-3 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
