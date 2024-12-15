@@ -31,30 +31,30 @@ const data = {
         }
       ]
     },
-    "power-bi-analytics": {
-      "desc": "Unlock the Power of Your Data with Power BI Analytics",
-      "title1": "Power BI Analytics",
-      "img": "/images/services-card/power-bi.webp",
-      "para1": "Power BI is a powerful business analytics tool that enables you to visualize your data and share insights across your organization. Our Power BI analytics services help you transform raw data into meaningful insights, empowering you to make data-driven decisions. From initial setup and integration to custom dashboard development and ongoing support, we provide comprehensive solutions to meet your unique business needs.",
-      "title2": "Our Power BI Analytics Services",
-      "items": [
-          {
-              "link": true,
-              "title": "Comprehensive Implementation and Support",
-              "desc": "We offer end-to-end Power BI implementation services, from initial setup and data integration to custom dashboard development and ongoing support. Our team ensures that your Power BI solution is tailored to your specific requirements, enabling you to harness the full potential of your data."
-          },
-          {
-              "link": true,
-              "title": "Custom Dashboard Development",
-              "desc": "Our experts design and develop custom Power BI dashboards that provide real-time insights into your key business metrics. We work closely with you to understand your data visualization needs and create interactive dashboards that help you monitor performance, identify trends, and make informed decisions."
-          },
-          {
-              "link": true,
-              "title": "Training and Knowledge Transfer",
-              "desc": "We provide comprehensive training and knowledge transfer sessions to ensure that your team is proficient in using Power BI. Our training programs are designed to help you maximize the value of your Power BI investment, enabling your team to create and manage reports and dashboards effectively."
-          }
-      ]
-  },
+   "power-bi-analytics": {
+        "desc": "Transform Your Data into Strategic Intelligence with Advanced Power BI Solutions",
+        "title1": "Power BI Analytics: Unleashing Data-Driven Potential",
+        "img": "/images/services-card/power-bi.webp",
+        "para1": "Power BI is a transformative business intelligence platform that empowers organizations to convert complex data into compelling, actionable insights. Our comprehensive Power BI analytics services are meticulously designed to help you navigate your data landscape, enabling smarter, faster, and more informed decision-making across your entire organization.",
+        "title2": "Our Comprehensive Power BI Analytics Services",
+        "items": [
+            {
+                "link": true,
+                "title": "Strategic Implementation and Holistic Support",
+                "desc": "We provide end-to-end Power BI implementation with a strategic approach. From initial data integration and system architecture to custom dashboard development and continuous optimization, our services ensure your Power BI solution becomes a powerful, adaptable asset that evolves with your business needs and technological landscape."
+            },
+            {
+                "link": true,
+                "title": "Advanced Custom Dashboard Development",
+                "desc": "Our expert data visualization specialists craft highly interactive, intuitive dashboards that transform complex data into clear, actionable narratives. We design precision-engineered visualizations that offer real-time insights, enabling leadership to monitor key performance indicators, identify emerging trends, and make data-driven decisions with unprecedented clarity and confidence."
+            },
+            {
+                "link": true,
+                "title": "Comprehensive Training and Organizational Enablement",
+                "desc": "Beyond implementation, we focus on empowering your team through structured, hands-on training programs. Our knowledge transfer sessions are designed to build internal Power BI expertise, accelerate team productivity, and cultivate a data-literate organizational culture that can independently leverage advanced analytics capabilities."
+            }
+        ]
+    },
   "servicenow-implementation-and-support": {
     "desc": "Comprehensive ServiceNow solutions to optimize IT service management and operational efficiency.",
     "title1": "Empowering Businesses with ServiceNow",
