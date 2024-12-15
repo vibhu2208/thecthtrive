@@ -47,10 +47,10 @@ const Footer = () => {
                                     <FaPhoneVolume /> +971582464210, +971582459658
                                 </p>
                                 <p className='flex items-center gap-2'>
-                                    <MdEmail /> info@ttsys.in
+                                    <MdEmail className='text-base' /> info@ttsys.in
                                 </p>
                                 <p className='flex items-center gap-2'>
-                                    <FaMapMarkerAlt /> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, Dubai Digital Park, United Arab Emirates
+                                    <FaMapMarkerAlt className='text-2xl'/> PO Box Number 452318, Premises Number 001 - 51450 IFZA Business Park, Building A1, United Arab Emirates
                                 </p>
                             </div>
                             <div className='flex flex-col gap-2 w-1/3'>
