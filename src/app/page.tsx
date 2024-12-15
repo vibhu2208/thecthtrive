@@ -31,7 +31,7 @@ export default function Home() {
       <BigNews />
       <OurMethodOfOperations />
       <IndustriesWeOffer />
-      <CompanySlider />
+      
       <Testimonials />
       <HaveQuestion />
     </div>
