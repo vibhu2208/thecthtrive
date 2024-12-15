@@ -56,7 +56,7 @@ const Footer = () => {
                             <div className='flex flex-col gap-2 w-1/3'>
                                 <h4 className='font-semibold'>India (NCR)</h4>
                                 <p className='flex items-center gap-2'>
-                                    <FaPhoneVolume /> +911169266164
+                                    <FaPhoneVolume /> +911169266164, +919266158800
                                 </p>
                                 <p className='flex items-center gap-2'>
                                     <MdEmail /> info@ttsys.in
