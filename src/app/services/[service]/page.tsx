@@ -3,9 +3,10 @@ import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
 import Link from 'next/link';
-type ServiceKey = "opentext-solutions" | "servicenow-implementation-and-support" | "devops-consulting" | "dynatrace-performance-monitoring" | "chatbot-development" | "automation-services" | "web-and-app-designing";
+type ServiceKey = "opentext-solutions" | "servicenow-implementation-and-support" | "devops-consulting" | "dynatrace-performance-monitoring" | "chatbot-development" | "automation-services" | "web-and-app-designing"| "power-bi-analytics";
 
 const data = {
+  
     "opentext-solutions": {
       "desc": "Empowering Digital Transformation with OpenText Solutions",
       "title1": "OpenText Solutions",
@@ -29,8 +30,31 @@ const data = {
           "desc": "We offer comprehensive training and knowledge transfer services to ensure that your team is equipped with the skills needed to leverage OpenText solutions effectively. Our training programs are tailored to your organization’s specific needs, ensuring that your employees can manage and operate the system with confidence. We also provide knowledge transfer to empower your internal teams to handle day-to-day operations and troubleshooting."
         }
       ]
-    }
-  ,
+    },
+    "power-bi-analytics": {
+      "desc": "Unlock the Power of Your Data with Power BI Analytics",
+      "title1": "Power BI Analytics",
+      "img": "/images/services-card/power-bi.webp",
+      "para1": "Power BI is a powerful business analytics tool that enables you to visualize your data and share insights across your organization. Our Power BI analytics services help you transform raw data into meaningful insights, empowering you to make data-driven decisions. From initial setup and integration to custom dashboard development and ongoing support, we provide comprehensive solutions to meet your unique business needs.",
+      "title2": "Our Power BI Analytics Services",
+      "items": [
+          {
+              "link": true,
+              "title": "Comprehensive Implementation and Support",
+              "desc": "We offer end-to-end Power BI implementation services, from initial setup and data integration to custom dashboard development and ongoing support. Our team ensures that your Power BI solution is tailored to your specific requirements, enabling you to harness the full potential of your data."
+          },
+          {
+              "link": true,
+              "title": "Custom Dashboard Development",
+              "desc": "Our experts design and develop custom Power BI dashboards that provide real-time insights into your key business metrics. We work closely with you to understand your data visualization needs and create interactive dashboards that help you monitor performance, identify trends, and make informed decisions."
+          },
+          {
+              "link": true,
+              "title": "Training and Knowledge Transfer",
+              "desc": "We provide comprehensive training and knowledge transfer sessions to ensure that your team is proficient in using Power BI. Our training programs are designed to help you maximize the value of your Power BI investment, enabling your team to create and manage reports and dashboards effectively."
+          }
+      ]
+  },
   "servicenow-implementation-and-support": {
     "desc": "Comprehensive ServiceNow solutions to optimize IT service management and operational efficiency.",
     "title1": "Empowering Businesses with ServiceNow",
