@@ -15,7 +15,7 @@ const Footer = () => {
                         </p>
                         <h3 className='uppercase text-md font-semibold text-white'>Follow Us</h3>
                         <div className='flex gap-2'>
-                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className='bg-[#0f588c] p-2 rounded-full'>
+                            <a href="https://www.linkedin.com/company/techthrive-system/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className='bg-[#0f588c] p-2 rounded-full'>
                                 <FaLinkedinIn className='text-white' />
                             </a>
                         </div>
