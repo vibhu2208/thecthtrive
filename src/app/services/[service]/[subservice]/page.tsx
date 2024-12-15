@@ -40,7 +40,11 @@ type ServiceKey =
   | "responsive-web-design"
   | "seo-friendly-solutions"
   | "user-centric-design-approach"
-  | "continuous-design-iteration-and-testing";
+  | "continuous-design-iteration-and-testing"
+  | "strategic-implementation-and-holistic-support"
+  | "advanced-custom-dashboard-development"
+  | "comprehensive-training-and-organizational-enablement"
+  ;
 
 const data = {
  
@@ -85,6 +89,72 @@ const data = {
       }
     ]
   },
+  "comprehensive-training-and-organizational-enablement": {
+    "desc": "Empower organizations through comprehensive training programs and strategic enablement initiatives that foster innovation, skill development, and technological adaptation.",
+    "title1": "Comprehensive Training and Organizational Enablement",
+    "img": "/images/individual-service/training.png",
+    "para1": "Comprehensive training and organizational enablement provide structured learning experiences and support mechanisms that help businesses develop their workforce's capabilities, embrace technological changes, and create a culture of continuous learning and innovation.",
+    "title2": "Benefits of Comprehensive Training and Organizational Enablement",
+    "items": [
+      {
+        "title": "Skill Development",
+        "desc": "Systematically enhance employee skills through targeted training programs aligned with technological and business evolution."
+      },
+      {
+        "title": "Change Management",
+        "desc": "Facilitate smooth organizational transitions by preparing employees to adapt to new technologies, processes, and work methodologies."
+      },
+      {
+        "title": "Knowledge Transfer",
+        "desc": "Create robust mechanisms for capturing, sharing, and preserving organizational knowledge across teams and departments."
+      },
+      {
+        "title": "Innovation Culture",
+        "desc": "Foster a culture of continuous learning, experimentation, and technological adaptation within the organization."
+      },
+      {
+        "title": "Performance Optimization",
+        "desc": "Improve overall organizational performance by equipping employees with cutting-edge skills and comprehensive understanding of technological tools."
+      },
+      {
+        "title": "Customized Learning Paths",
+        "desc": "Develop personalized training programs that cater to individual learning styles, roles, and organizational requirements."
+      }
+    ]
+},
+  "advanced-custom-dashboard-development": {
+    "desc": "Create powerful, intuitive, and highly customized dashboards that transform complex data into actionable insights for informed decision-making.",
+    "title1": "Advanced Custom Dashboard Development",
+    "img": "/images/individual-service/dashboard.png",
+    "para1": "Advanced custom dashboard development enables organizations to visualize critical business metrics, track performance, and gain deep insights through tailored, interactive data visualization solutions. By converting raw data into meaningful, accessible information, businesses can drive strategic decision-making.",
+    "title2": "Benefits of Advanced Custom Dashboard Development",
+    "items": [
+      {
+        "title": "Data-Driven Insights",
+        "desc": "Transform complex data sets into clear, actionable visualizations that facilitate quick and informed decision-making."
+      },
+      {
+        "title": "Personalized Visualization",
+        "desc": "Create fully customized dashboards tailored to specific business needs, departmental requirements, and individual user preferences."
+      },
+      {
+        "title": "Real-Time Performance Tracking",
+        "desc": "Enable instant monitoring of key performance indicators (KPIs) and critical business metrics through dynamic, real-time dashboards."
+      },
+      {
+        "title": "Enhanced Analytical Capabilities",
+        "desc": "Provide advanced analytical tools and interactive features that allow deep exploration of data and uncovering of hidden insights."
+      },
+      {
+        "title": "Seamless Integration",
+        "desc": "Develop dashboards that integrate smoothly with existing systems and multiple data sources for comprehensive reporting."
+      },
+      {
+        "title": "User-Friendly Interface",
+        "desc": "Design intuitive, visually appealing dashboards that promote user adoption and simplify complex data interpretation."
+      }
+    ]
+},
   "continuous-design-iteration-and-testing": {
     "desc": "Adopting a continuous approach to design and testing ensures that the product evolves based on real user feedback, leading to improved usability and performance.",
     "title1": "Continuous Design Iteration and Testing",
@@ -365,6 +435,39 @@ const data = {
       }
     ]
   },
+  "strategic-implementation-and-holistic-support": {
+    "desc": "Deliver comprehensive strategic planning and holistic support to drive organizational transformation and technological innovation.",
+    "title1": "Strategic Implementation and Holistic Support",
+    "img": "/images/individual-service/strategy.png",
+    "para1": "Strategic implementation and holistic support provide organizations with end-to-end guidance in navigating complex technological and business challenges. By offering integrated solutions and comprehensive support, businesses can achieve sustainable growth and competitive advantage.",
+    "title2": "Benefits of Strategic Implementation and Holistic Support",
+    "items": [
+      {
+        "title": "Comprehensive Strategic Alignment",
+        "desc": "Develop and align technology strategies with overall business objectives, ensuring cohesive and purposeful organizational growth."
+      },
+      {
+        "title": "Integrated Problem-Solving",
+        "desc": "Provide holistic solutions that address multiple dimensions of organizational challenges, from technology to process optimization."
+      },
+      {
+        "title": "Risk Mitigation",
+        "desc": "Identify and proactively manage potential risks through comprehensive assessment and strategic planning."
+      },
+      {
+        "title": "Continuous Improvement Framework",
+        "desc": "Establish robust frameworks for ongoing evaluation and enhancement of organizational capabilities and technological infrastructure."
+      },
+      {
+        "title": "Cross-Functional Coordination",
+        "desc": "Facilitate seamless communication and collaboration across different departments to ensure unified strategic execution."
+      },
+      {
+        "title": "Long-Term Strategic Vision",
+        "desc": "Develop forward-looking strategies that anticipate future technological trends and business opportunities."
+      }
+    ]
+},
   "responsive-web-design": {
     "desc": "Implement responsive design strategies that ensure a seamless and optimized user experience across all devices and screen sizes.",
     "title1": "Responsive Design Techniques",
