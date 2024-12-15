@@ -33,6 +33,12 @@ const cardsData = [
         desc: "Elevate customer engagement and automate responses with our innovative chatbot development solutions customized for your business.",
         link: ""
     },
+    {
+        img: "/images/services-card/power-bi.webp",
+        title: "POWER BI ANALYTICS",
+        desc: "Transform your data into actionable insights with our Power BI analytics services, empowering you to make informed business decisions.",
+        link: ""
+    }
 ];
 
 type CardType = {
