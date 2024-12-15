@@ -250,7 +250,7 @@ const data = {
             },
             {
               "link": true,
-              "title": "Responsive Design Techniques",
+              "title": "Responsive Web Design",
               "desc": "With the increasing use of mobile devices and varying screen sizes, responsive design has become a necessity. We employ responsive design techniques to ensure that your website or app functions seamlessly across all devices—be it desktops, tablets, or smartphones. Our designs automatically adjust the layout, images, and content based on the screen size, providing a consistent and optimal experience for users, no matter how they access your platform. This approach ensures that users have a positive experience on any device, reducing bounce rates and increasing engagement and conversions."
             },
             {
