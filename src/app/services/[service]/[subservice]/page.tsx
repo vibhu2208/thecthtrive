@@ -636,7 +636,7 @@ const data = {
   "intelligent-chatbots-for-engagement": {
     "desc": "Leverage the power of AI-driven chatbots to enhance customer engagement, automate tasks, and provide real-time assistance.",
     "title1": "Intelligent Chatbots for Engagement",
-    "img": "/images/services-card/chatbots.webp",
+    "img": "/images/services-card/chatbot.webp",
     "para1": "Our intelligent chatbots are designed to streamline customer interactions, providing instant support and enhancing the overall user experience. By integrating artificial intelligence, our chatbots offer personalized conversations, automate repetitive tasks, and ensure consistent communication across various platforms, improving both customer satisfaction and operational efficiency.",
     "title2": "Benefits of Intelligent Chatbots for Engagement",
     "items": [
