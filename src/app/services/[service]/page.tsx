@@ -9,7 +9,7 @@ const data = {
     "opentext-solutions": {
       "desc": "Empowering Digital Transformation with OpenText Solutions",
       "title1": "OpenText Solutions",
-      "img": "/images/services-card/development.jpg",
+      "img": "/images/services-card/opentext.webp",
       "para1": "OpenText provides end-to-end enterprise information management (EIM) solutions that empower businesses to manage, secure, and leverage critical business data effectively. From seamless implementation and integration to ongoing support and training, we ensure your organization's digital transformation journey is smooth and successful. Our OpenText solutions optimize information flow, enhance decision-making, and boost operational efficiency.",
       "title2": "Our OpenText Solutions for Business Success",
       "items": [
@@ -34,7 +34,7 @@ const data = {
   "servicenow-implementation-and-support": {
     "desc": "Comprehensive ServiceNow solutions to optimize IT service management and operational efficiency.",
     "title1": "Empowering Businesses with ServiceNow",
-    "img": "/images/services/devimg.jpg",
+    "img": "/images/services-card/servicenow.jpg",
     "para1": "Our ServiceNow solutions are designed to help organizations unlock the full potential of IT service management. From workflow automation to enhanced operational productivity, we tailor our approach to meet unique business needs. By leveraging ServiceNow's advanced features, we enable businesses to improve service delivery and streamline processes.",
     "title2": "Our ServiceNow Solutions",
     "items": [
@@ -75,7 +75,7 @@ const data = {
     "devops-consulting": {
       "desc": "Streamlining Development and Operations",
       "title1": "DevOps Consulting",
-      "img": "/images/services/devops-consulting.png",
+      "img": "/images/services-card/devops.png",
       "para1": "We specialize in DevOps practices that streamline development and operations. Our consulting services focus on integrating development, IT operations, and quality assurance to improve collaboration and productivity.",
       "title2": "Our Solutions for DevOps Consulting",
       "items": [
@@ -126,7 +126,7 @@ const data = {
     "dynatrace-performance-monitoring": {
       "desc": "Robust Performance Monitoring Solutions",
       "title1": "Dynatrace Performance Monitoring",
-      "img": "/images/services/emerging.png",
+      "img": "/images/services-card/dynatrace.webp",
       "para1": "Our Dynatrace experts offer robust performance monitoring solutions that provide actionable insights into application performance and user experience. We ensure that your applications run smoothly and meet user expectations.",
       "title2": "Our Solutions for Performance Monitoring",
       "items": [
@@ -160,7 +160,7 @@ const data = {
       "chatbot-development": {
         "desc": "Empowering Customer Engagement with Intelligent Chatbots",
         "title1": "Chatbot Development",
-        "img": "/images/services/chatbot-development.png",
+        "img": "/images/services-card/chatbot.webp",
         "para1": "Our team specializes in developing intelligent chatbots that drive meaningful customer engagement. These chatbots are designed to provide instant responses, enhancing the quality of interactions between businesses and customers. By leveraging AI and natural language processing (NLP), we create bots that understand user intent and deliver personalized, relevant information. Whether it’s for customer support, sales, or feedback, our chatbots improve user experience and satisfaction, providing a seamless interaction that increases customer loyalty and boosts business performance.",
         "title2": "Our Chatbot Development Solutions",
         "items": [
@@ -184,7 +184,7 @@ const data = {
         "automation-services": {
           "desc": "Optimizing Operations with Cutting-Edge Automation Technologies",
           "title1": "Automation Services",
-          "img": "/images/services/automation-services.png",
+          "img": "/images/services-card/automation.webp",
           "para1": "Our automation services empower businesses by leveraging cutting-edge technologies to streamline operations, reduce manual efforts, and increase efficiency. We focus on automating repetitive tasks, enhancing productivity, and optimizing critical processes across various departments. By implementing tailored automation solutions, we help businesses eliminate inefficiencies, reduce human error, and create more time for high-value activities. Whether you're looking to automate customer service, data entry, or complex workflows, we ensure a seamless and impactful automation experience.",
           "title2": "Our Automation Services Solutions",
           "items": [
@@ -215,7 +215,7 @@ const data = {
         "web-and-app-designing": {
           "desc": "Crafting Engaging Web and App Designs for Exceptional User Experiences",
           "title1": "Web and App Designing",
-          "img": "/images/services/web-app-designing.png",
+          "img": "/images/services-card/web.webp",
           "para1": "We specialize in creating visually appealing and functional websites and apps that offer seamless user experiences. Our design approach combines aesthetics with usability to engage users and ensure they have a positive interaction with your digital products. Whether it's a website or mobile app, we focus on creating intuitive layouts, easy navigation, and responsive designs that adjust to different screen sizes. Our goal is to ensure your users can interact effortlessly with your platform while enjoying a visually compelling interface.",
           "title2": "Our Web and App Designing Solutions",
           "items": [
