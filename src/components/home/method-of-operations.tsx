@@ -9,39 +9,39 @@ const OurMethodOfOperations = () => {
                     With over a decade of industry experience in IT consultation & development service, we consistently deliver high-quality solutions to our clients worldwide. In addition, we develop a consulting & development methodology specific to the requirements of potential projects.
                 </p>
                 <p className='md:text-xl text-base text-default-700 font-medium'>
-                    Our dedication to quality has helped us gain the trust of our 250 clients. Let us take you through our working methodology.
+                    Our dedication to quality has helped us gain the trust of our 250 + clients. Let us take you through our working methodology.
                 </p>
                 <div className="safari-grid-container" data-aos="fade-up" data-aos-delay="300">
                     {[
                         { 
                             number: 1, 
                             image: "/images/our-method-of-operations/Establishing.png", 
-                            text: "Comprehensive Requirement Analysis" 
+                            text: "Comprehensive\nRequirement Analysis" 
                         },
                         { 
                             number: 2, 
                             image: "/images/our-method-of-operations/strrgy.png", 
-                            text: "Strategy Development" 
+                            text: "Strategy\nDevelopment" 
                         },
                         { 
                             number: 3, 
                             image: "/images/our-method-of-operations/plan.png", 
-                            text: "Establish the Execution plan" 
+                            text: "Establish the\nExecution plan" 
                         },
                         { 
                             number: 4, 
                             image: "/images/our-method-of-operations/recourse.png", 
-                            text: "Allocation of Resources" 
+                            text: "Allocation of\nResources" 
                         },
                         { 
                             number: 5, 
                             image: "/images/our-method-of-operations/implementation.png", 
-                            text: "Establishing Development process" 
+                            text: "Establishing\nDevelopment process" 
                         },
                         { 
                             number: 6, 
                             image: "/images/our-method-of-operations/implementation2.png", 
-                            text: "Implementation & Recalibration" 
+                            text: "Implementation &\nRecalibration" 
                         }
                     ].map((item) => (
                         <div key={item.number} className="safari-grid-item">
@@ -55,7 +55,12 @@ const OurMethodOfOperations = () => {
                                     alt={`Step ${item.number}`} 
                                 />
                                 <span className='safari-card-text'>
-                                    {item.text}
+                                    {item.text.split('\n').map((line, index) => (
+                                        <React.Fragment key={index}>
+                                            {line}
+                                            {index < item.text.split('\n').length - 1 && <br />}
+                                        </React.Fragment>
+                                    ))}
                                 </span>
                             </div>
                         </div>
@@ -78,7 +83,8 @@ const OurMethodOfOperations = () => {
                     flex-direction: column;
                     align-items: center;
                     width: 100%;
-                    height: 100%;
+                    height: auto;
+                    min-height: 180px;
                 }
 
                 .safari-number-badge {
@@ -90,20 +96,21 @@ const OurMethodOfOperations = () => {
                     justify-content: center;
                     width: 1.5rem;
                     height: 1.5rem;
-                    background-color: theme('colors.blue.100');
+                    background-color: rgb(191, 219, 254);
                     border-radius: 9999px;
                     z-index: 10;
+                    font-size: 0.75rem;
                 }
 
                 .safari-card {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: space-between;
+                    justify-content: flex-start;
                     width: 100%;
                     height: 100%;
                     padding: 1rem;
-                    border: 1px solid theme('colors.gray.200');
+                    border: 1px solid rgb(229, 231, 235);
                     border-radius: 0.5rem;
                     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
                     text-align: center;
@@ -113,17 +120,25 @@ const OurMethodOfOperations = () => {
                     height: 2rem;
                     width: 2rem;
                     object-fit: contain;
-                    margin-bottom: 0.5rem;
+                    margin-bottom: 0.75rem;
                 }
 
                 .safari-card-text {
                     font-size: 0.75rem;
-                    color: theme('colors.gray.600');
+                    color: rgb(75, 85, 99);
+                    line-height: 1.2;
+                    word-break: break-word;
+                    display: inline-block;
+                    max-width: 100%;
                 }
 
                 @media (max-width: 768px) {
                     .safari-grid-container {
                         grid-template-columns: repeat(3, 1fr);
+                    }
+
+                    .safari-grid-item {
+                        min-height: 140px;
                     }
                 }
             `}</style>
