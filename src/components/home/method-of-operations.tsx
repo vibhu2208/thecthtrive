@@ -11,7 +11,7 @@ const OurMethodOfOperations = () => {
                 <p className='md:text-xl text-base text-default-700 font-medium'>
                     Our dedication to quality has helped us gain the trust of our clients. Let us take you through our working methodology.
                 </p>
-                <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 md:gap-8 mt-5" data-aos="fade-up" data-aos-delay="300">
+                <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 md:gap-8 mt-5 safari-grid" data-aos="fade-up" data-aos-delay="300">
                     {[
                         { 
                             number: 1, 
@@ -44,13 +44,13 @@ const OurMethodOfOperations = () => {
                             text: "Implementation & Recalibration" 
                         }
                     ].map((item) => (
-                        <div key={item.number} className="relative h-full w-full">
+                        <div key={item.number} className="safari-grid-item relative h-full">
                             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white z-10">
                                 {item.number}
                             </span>
-                            <div className="flex flex-col items-center justify-between h-full w-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
+                            <div className="safari-card flex flex-col items-center justify-between h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
                                 <img 
-                                    className='h-8 w-8 object-contain mb-4' 
+                                    className='h-8 w-8 object-contain mb-2' 
                                     src={item.image} 
                                     alt={`Step ${item.number}`} 
                                 />
@@ -62,6 +62,30 @@ const OurMethodOfOperations = () => {
                     ))}
                 </div>
             </div>
+            
+            {/* Safari-specific styles */}
+            <style jsx>{`
+                @media not all and (min-resolution:.001dpcm) {
+                    .safari-grid {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 1rem;
+                    }
+                    
+                    .safari-grid-item {
+                        flex: 1 1 calc(16.666% - 1rem);
+                        max-width: calc(16.666% - 1rem);
+                        min-width: 150px;
+                    }
+                    
+                    .safari-card {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+            `}</style>
         </div>
     )
 }
