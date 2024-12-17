@@ -9,7 +9,7 @@ const OurMethodOfOperations = () => {
                     With over a decade of industry experience in IT consultation & development service, we consistently deliver high-quality solutions to our clients worldwide. In addition, we develop a consulting & development methodology specific to the requirements of potential projects.
                 </p>
                 <p className='md:text-xl text-base text-default-700 font-medium'>
-                    Our dedication to quality has helped us gain the trust of our 250 + clients. Let us take you through our working methodology.
+                    Our dedication to quality has helped us gain the trust of our clients. Let us take you through our working methodology.
                 </p>
                 <div className="safari-grid-container" data-aos="fade-up" data-aos-delay="300">
                     {[
