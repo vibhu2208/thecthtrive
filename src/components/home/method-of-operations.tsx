@@ -9,75 +9,57 @@ const OurMethodOfOperations = () => {
                     With over a decade of industry experience in IT consultation & development service, we consistently deliver high-quality solutions to our clients worldwide. In addition, we develop a consulting & development methodology specific to the requirements of potential projects.
                 </p>
                 <p className='md:text-xl text-base text-default-700 font-medium'>
-                    Our dedication to quality has helped us gain the trust of our 250 + clients. Let us take you through our working methodology.
+                    Our dedication to quality has helped us gain the trust of our clients. Let us take you through our working methodology.
                 </p>
                 <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 md:gap-8 mt-5" data-aos="fade-up" data-aos-delay="300">
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            1
-                        </span>
-                        <div className=" flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/Establishing.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Comprehensive Requirement Analysis
+                    {[
+                        { 
+                            number: 1, 
+                            image: "/images/our-method-of-operations/Establishing.png", 
+                            text: "Comprehensive Requirement Analysis" 
+                        },
+                        { 
+                            number: 2, 
+                            image: "/images/our-method-of-operations/strrgy.png", 
+                            text: "Strategy Development" 
+                        },
+                        { 
+                            number: 3, 
+                            image: "/images/our-method-of-operations/plan.png", 
+                            text: "Establish the Execution plan" 
+                        },
+                        { 
+                            number: 4, 
+                            image: "/images/our-method-of-operations/recourse.png", 
+                            text: "Allocation of Resources" 
+                        },
+                        { 
+                            number: 5, 
+                            image: "/images/our-method-of-operations/implementation.png", 
+                            text: "Establishing Development process" 
+                        },
+                        { 
+                            number: 6, 
+                            image: "/images/our-method-of-operations/implementation2.png", 
+                            text: "Implementation & Recalibration" 
+                        }
+                    ].map((item) => (
+                        <div key={item.number} className="relative h-full w-full">
+                            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white z-10">
+                                {item.number}
                             </span>
+                            <div className="flex flex-col items-center justify-between h-full w-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
+                                <img 
+                                    className='h-8 w-8 object-contain mb-4' 
+                                    src={item.image} 
+                                    alt={`Step ${item.number}`} 
+                                />
+                                <span className='text-center'>
+                                    {item.text}
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            2
-                        </span>
-                        <div className="flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/strrgy.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Strategy Development
-                            </span>
-                        </div>
-                    </div>
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            3
-                        </span>
-                        <div className="flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/plan.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Establish the Execution plan
-                            </span>
-                        </div>
-                    </div>
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            4
-                        </span>
-                        <div className="flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/recourse.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Allocation of Resources
-                            </span>
-                        </div>
-                    </div>
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            5
-                        </span>
-                        <div className="flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/implementation.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Establishing Development process
-                            </span>
-                        </div>
-                    </div>
-                    <div className="relative h-full">
-                        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                            6
-                        </span>
-                        <div className="flex flex-col items-center h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex">
-                            <img className='h-8' src="/images/our-method-of-operations/implementation2.png" alt="" />
-                            <span className='mt-4 text-center'>
-                                Implementation & Recalibration
-                            </span>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
