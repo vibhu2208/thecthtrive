@@ -9,9 +9,9 @@ const OurMethodOfOperations = () => {
                     With over a decade of industry experience in IT consultation & development service, we consistently deliver high-quality solutions to our clients worldwide. In addition, we develop a consulting & development methodology specific to the requirements of potential projects.
                 </p>
                 <p className='md:text-xl text-base text-default-700 font-medium'>
-                    Our dedication to quality has helped us gain the trust of our clients. Let us take you through our working methodology.
+                    Our dedication to quality has helped us gain the trust of our 250 clients. Let us take you through our working methodology.
                 </p>
-                <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 md:gap-8 mt-5 safari-grid" data-aos="fade-up" data-aos-delay="300">
+                <div className="safari-grid-container" data-aos="fade-up" data-aos-delay="300">
                     {[
                         { 
                             number: 1, 
@@ -44,17 +44,17 @@ const OurMethodOfOperations = () => {
                             text: "Implementation & Recalibration" 
                         }
                     ].map((item) => (
-                        <div key={item.number} className="safari-grid-item relative h-full">
-                            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white z-10">
+                        <div key={item.number} className="safari-grid-item">
+                            <span className="safari-number-badge">
                                 {item.number}
                             </span>
-                            <div className="safari-card flex flex-col items-center justify-between h-full text-xs md:text-sm font-normal text-gray-600 p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
+                            <div className="safari-card">
                                 <img 
-                                    className='h-8 w-8 object-contain mb-2' 
+                                    className='safari-card-image' 
                                     src={item.image} 
                                     alt={`Step ${item.number}`} 
                                 />
-                                <span className='text-center'>
+                                <span className='safari-card-text'>
                                     {item.text}
                                 </span>
                             </div>
@@ -65,24 +65,65 @@ const OurMethodOfOperations = () => {
             
             {/* Safari-specific styles */}
             <style jsx>{`
-                @media not all and (min-resolution:.001dpcm) {
-                    .safari-grid {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 1rem;
-                    }
-                    
-                    .safari-grid-item {
-                        flex: 1 1 calc(16.666% - 1rem);
-                        max-width: calc(16.666% - 1rem);
-                        min-width: 150px;
-                    }
-                    
-                    .safari-card {
-                        height: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
+                .safari-grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(6, 1fr);
+                    gap: 1rem;
+                    width: 100%;
+                }
+
+                .safari-grid-item {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .safari-number-badge {
+                    position: absolute;
+                    top: -0.75rem;
+                    left: -0.75rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: theme('colors.blue.100');
+                    border-radius: 9999px;
+                    z-index: 10;
+                }
+
+                .safari-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 100%;
+                    padding: 1rem;
+                    border: 1px solid theme('colors.gray.200');
+                    border-radius: 0.5rem;
+                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                }
+
+                .safari-card-image {
+                    height: 2rem;
+                    width: 2rem;
+                    object-fit: contain;
+                    margin-bottom: 0.5rem;
+                }
+
+                .safari-card-text {
+                    font-size: 0.75rem;
+                    color: theme('colors.gray.600');
+                }
+
+                @media (max-width: 768px) {
+                    .safari-grid-container {
+                        grid-template-columns: repeat(3, 1fr);
                     }
                 }
             `}</style>
