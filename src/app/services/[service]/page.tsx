@@ -91,6 +91,21 @@ const data = {
         "link": true,
         "title": "ServiceNow Support and Maintenance",
         "desc": "We provide ongoing support and maintenance to ensure your ServiceNow implementation continues to deliver optimal performance and aligns with evolving business needs."
+      },
+      {
+        "link":true,
+        "title" : "Software Asset Management",
+        "desc": "Implement robust Software Asset Management (SAM) practices to optimize software investments, ensure compliance, and maximize the value of your organization's software portfolio through systematic tracking, management, and optimization."
+      },
+      {
+        "link":true,
+        "title" : "Configuration management database",
+        "desc": "Implement and maintain a comprehensive Configuration Management Database (CMDB) to track, manage, and optimize your IT infrastructure components while ensuring accurate relationship mapping and enhanced service delivery."
+      },
+      {
+        "link":true,
+        "title" : "Vulnerability Management",
+        "desc": "Implement comprehensive Vulnerability Management practices to identify, assess, prioritize, and remediate security vulnerabilities across your IT infrastructure, ensuring robust protection against potential threats."
       }
     ]
   },
