@@ -129,7 +129,7 @@ const data = {
       "configuration-management-database": {
         "desc": "Implement and maintain a comprehensive Configuration Management Database (CMDB) to track, manage, and optimize your IT infrastructure components while ensuring accurate relationship mapping and enhanced service delivery.",
         "title1": "Configuration Management Database",
-        "img": "/images/services/cmdata.webp",
+        "img": "/images/services/cmdata.jpg",
         "para1": "A Configuration Management Database serves as the single source of truth for IT infrastructure, providing detailed information about hardware, software, and their relationships. It enables organizations to make informed decisions, improve service delivery, and maintain control over their IT environment through systematic documentation and relationship mapping.",
         "title2": "Benefits of Configuration Management Database",
         "items": [
