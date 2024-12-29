@@ -9,6 +9,9 @@ type ServiceKey =
   | "workflow-automation"
   | "custom-servicenow-applications"
   | "servicenow-integration"
+  | "software-asset-management"
+  | "vulnerability-management"
+  | "configuration-management-database"
   | "servicenow-support-and-maintenance"
   | "robust-performance-monitoring-solutions"
   | "actionable-insights"
@@ -89,6 +92,107 @@ const data = {
       }
     ]
   },
+  
+    "software-asset-management": {
+      "desc": "Implement robust Software Asset Management (SAM) practices to optimize software investments, ensure compliance, and maximize the value of your organization's software portfolio through systematic tracking, management, and optimization.",
+      "title1": "Software Asset Management",
+      "img": "/images/services/sam.webp",
+      "para1": "Software Asset Management is a comprehensive framework that enables organizations to effectively control and optimize their software assets throughout their lifecycle, ensuring license compliance, cost optimization, and strategic alignment with business objectives while minimizing security and operational risks.",
+      "title2": "Benefits of Software Asset Management",
+      "items": [
+        {
+          "title": "Cost Optimization",
+          "desc": "Reduce software spending through accurate license tracking, elimination of unused licenses, and strategic procurement decisions based on actual usage patterns."
+        },
+        {
+          "title": "Compliance Assurance",
+          "desc": "Maintain continuous compliance with software licenses and agreements while minimizing audit risks through systematic tracking and documentation."
+        },
+        {
+          "title": "Risk Management",
+          "desc": "Identify and mitigate security vulnerabilities by maintaining up-to-date software inventories and ensuring proper version control across the organization."
+        },
+        {
+          "title": "Resource Optimization",
+          "desc": "Maximize software utilization by matching software deployments with actual business needs and user requirements."
+        },
+        {
+          "title": "Strategic Planning",
+          "desc": "Make informed decisions about software investments and renewals based on comprehensive usage data and organizational requirements."
+        },
+        {
+          "title": "Lifecycle Management",
+          "desc": "Effectively manage software from procurement through retirement, ensuring optimal performance and value throughout each asset's lifecycle."
+        }
+      ]
+    },
+      "configuration-management-database": {
+        "desc": "Implement and maintain a comprehensive Configuration Management Database (CMDB) to track, manage, and optimize your IT infrastructure components while ensuring accurate relationship mapping and enhanced service delivery.",
+        "title1": "Configuration Management Database",
+        "img": "/images/services/cmdb.webp",
+        "para1": "A Configuration Management Database serves as the single source of truth for IT infrastructure, providing detailed information about hardware, software, and their relationships. It enables organizations to make informed decisions, improve service delivery, and maintain control over their IT environment through systematic documentation and relationship mapping.",
+        "title2": "Benefits of Configuration Management Database",
+        "items": [
+          {
+            "title": "Infrastructure Visibility",
+            "desc": "Gain complete visibility into IT infrastructure components, their relationships, and dependencies for better decision-making and problem resolution."
+          },
+          {
+            "title": "Change Management",
+            "desc": "Assess the impact of proposed changes across the IT environment by understanding component relationships and dependencies before implementation."
+          },
+          {
+            "title": "Service Mapping",
+            "desc": "Map IT services to underlying infrastructure components, enabling better service delivery, troubleshooting, and business continuity planning."
+          },
+          {
+            "title": "Asset Tracking",
+            "desc": "Maintain accurate records of all IT assets, their configurations, and relationships throughout their lifecycle for improved asset management."
+          },
+          {
+            "title": "Compliance Management",
+            "desc": "Support regulatory compliance by maintaining detailed records of infrastructure components, configurations, and changes over time."
+          },
+          {
+            "title": "Incident Resolution",
+            "desc": "Accelerate incident resolution by providing detailed infrastructure information and relationship context to support teams."
+          }
+        ]
+      },
+        "vulnerability-management": {
+          "desc": "Implement comprehensive Vulnerability Management practices to identify, assess, prioritize, and remediate security vulnerabilities across your IT infrastructure, ensuring robust protection against potential threats.",
+          "title1": "Vulnerability Management",
+          "img": "/images/services/vulnerability.webp",
+          "para1": "Vulnerability Management is a systematic, proactive approach to identifying, assessing, and addressing security vulnerabilities in systems and software. It helps organizations maintain a strong security posture through continuous monitoring, risk assessment, and coordinated remediation efforts across the entire IT environment.",
+          "title2": "Benefits of Vulnerability Management",
+          "items": [
+            {
+              "title": "Risk Reduction",
+              "desc": "Proactively identify and address security vulnerabilities before they can be exploited, significantly reducing organizational risk exposure."
+            },
+            {
+              "title": "Threat Prevention",
+              "desc": "Stay ahead of potential threats by continuously monitoring, assessing, and remediating vulnerabilities across the IT infrastructure."
+            },
+            {
+              "title": "Compliance Adherence",
+              "desc": "Meet regulatory requirements and industry standards by maintaining a robust vulnerability management program with documented processes and results."
+            },
+            {
+              "title": "Resource Optimization",
+              "desc": "Prioritize remediation efforts based on risk levels and business impact, ensuring efficient use of security resources and budget."
+            },
+            {
+              "title": "Security Posture",
+              "desc": "Strengthen overall security posture through systematic vulnerability assessment, prioritization, and remediation processes."
+            },
+            {
+              "title": "Incident Prevention",
+              "desc": "Reduce the likelihood of security incidents by addressing vulnerabilities before they can be exploited by malicious actors."
+            }
+          ]
+        }
+      ,
   "comprehensive-training-and-organizational-enablement": {
     "desc": "Empower organizations through comprehensive training programs and strategic enablement initiatives that foster innovation, skill development, and technological adaptation.",
     "title1": "Comprehensive Training and Organizational Enablement",
