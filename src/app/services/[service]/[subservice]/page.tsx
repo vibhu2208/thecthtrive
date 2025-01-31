@@ -104,7 +104,7 @@ const data = {
   "truesight-network-automation": {
   "desc": "Simplify network management and enhance operational efficiency with TrueSight Network Automation, automating network device configuration, monitoring, and compliance.",
   "title1": "TrueSight Network Automation",
-  "img": "/images/services/Truesight Network Automation.jpeg",
+  "img": "/images/services/TrueSight Network Automation.jpeg",
   "para1": "TrueSight Network Automation enables organizations to automate and optimize network operations, ensuring better performance, security, and compliance across all network devices. By automating tasks such as configuration management, patching, and compliance enforcement, businesses can reduce the risk of errors, improve network uptime, and ensure that network devices are properly configured and compliant with industry standards. With advanced automation capabilities, TrueSight Network Automation helps network teams streamline workflows and improve network reliability.",
   "title2": "Benefits of TrueSight Network Automation",
   "items": [
