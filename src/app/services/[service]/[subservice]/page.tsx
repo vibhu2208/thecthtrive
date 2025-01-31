@@ -104,7 +104,7 @@ const data = {
   "truesight-network-automation": {
   "desc": "Simplify network management and enhance operational efficiency with TrueSight Network Automation, automating network device configuration, monitoring, and compliance.",
   "title1": "TrueSight Network Automation",
-  "img": "/images/individual-service/truesight-network.png",
+  "img": "/images/services/Truesight Network Automation.jpeg",
   "para1": "TrueSight Network Automation enables organizations to automate and optimize network operations, ensuring better performance, security, and compliance across all network devices. By automating tasks such as configuration management, patching, and compliance enforcement, businesses can reduce the risk of errors, improve network uptime, and ensure that network devices are properly configured and compliant with industry standards. With advanced automation capabilities, TrueSight Network Automation helps network teams streamline workflows and improve network reliability.",
   "title2": "Benefits of TrueSight Network Automation",
   "items": [
@@ -145,7 +145,7 @@ const data = {
   "helix-discovery": {
   "desc": "Gain comprehensive visibility into your IT assets with Helix Discovery, an advanced solution for automatic discovery and mapping of your entire IT environment.",
   "title1": "Helix Discovery",
-  "img": "/images/individual-service/helix-discovery.png",
+  "img": "/images/services/Helix Discovery.jpeg",
   "para1": "Helix Discovery offers organizations a detailed, real-time map of their entire IT infrastructure, automatically discovering and categorizing assets across on-premises, cloud, and hybrid environments. By providing an accurate view of all IT components, including hardware, software, and network configurations, it enables better decision-making, faster issue resolution, and improved compliance management. With its powerful automation capabilities, Helix Discovery helps businesses maintain a healthy, secure, and optimized IT environment.",
   "title2": "Benefits of Helix Discovery",
   "items": [
@@ -186,7 +186,7 @@ const data = {
   "helix-aiops": {
   "desc": "Transform IT operations with Helix AIOps, utilizing AI and machine learning to automate incident management, predictive analytics, and proactive issue resolution.",
   "title1": "Helix AIOps",
-  "img": "/images/individual-service/helix-aiops.png",
+  "img": "/images/services/Helix AIOps.jpeg",
   "para1": "Helix AIOps leverages artificial intelligence to provide real-time insights, automate issue detection and resolution, and optimize IT operations. By integrating machine learning models, it enhances predictive analytics, helping businesses prevent incidents before they impact performance. With Helix AIOps, organizations can streamline workflows, increase system reliability, and reduce manual intervention, all while ensuring that IT resources are utilized efficiently and effectively.",
   "title2": "Benefits of Helix AIOps",
   "items": [
@@ -227,7 +227,7 @@ const data = {
   "truesight-server-automation": {
     "desc": "Automate server management tasks and improve operational efficiency with TrueSight Server Automation, ensuring compliance, security, and scalability.",
     "title1": "TrueSight Server Automation",
-    "img": "/images/individual-service/truesight-server.png",
+    "img": "/images/services/Truesight Server Automation.jpeg",
     "para1": "Our TrueSight Server Automation solutions enable organizations to automate complex server management tasks, improving security, compliance, and efficiency. By streamlining provisioning, patching, and configuration management, we help businesses achieve consistent server performance while reducing manual intervention. Our automation framework ensures that IT operations remain scalable, secure, and optimized for business needs.",
     "title2": "Benefits of TrueSight Server Automation",
     "items": [
@@ -268,7 +268,7 @@ const data = {
   "truesight-orchestrator": {
     "desc": "Automate and optimize IT operations with TrueSight Orchestrator, enhancing efficiency, reducing manual tasks, and ensuring seamless workflows.",
     "title1": "TrueSight Orchestrator",
-    "img": "/images/individual-service/truesight-orchestrator.png",
+    "img": "/images/services/Truesight Orchestrator.jpeg",
     "para1": "TrueSight Orchestrator streamlines IT operations by automating workflows, minimizing manual interventions, and enhancing system performance. Our solution integrates with various IT environments to ensure a proactive and efficient approach to operations management. With intelligent automation, businesses can reduce downtime, increase agility, and optimize resource allocation.",
     "title2": "Benefits of TrueSight Orchestrator",
     "items": [
@@ -309,7 +309,7 @@ const data = {
   "helix-operations-management": {
     "desc": "Streamline and optimize your business operations with Helix Operations Management, ensuring efficiency, automation, and scalability.",
     "title1": "Helix Operations Management",
-    "img": "/images/individual-service/helix-operations.png",
+    "img": "/images/services/helix-operations.jpeg",
     "para1": "Our Helix Operations Management solutions focus on enhancing operational efficiency, reducing costs, and improving workflow automation. We leverage cutting-edge technology and best practices to streamline processes, minimize downtime, and maximize productivity across various industries. From real-time monitoring to predictive analytics, our solutions ensure seamless business operations.",
     "title2": "Benefits of Helix Operations Management",
     "items": [
@@ -350,7 +350,7 @@ const data = {
   "netro-server-management": {
     "desc": "Optimize and streamline your server infrastructure with Netro Server Management, ensuring high availability, performance, and security.",
     "title1": "Netro Server Management",
-    "img": "/images/individual-service/netro-server.png",
+    "img": "/images/services/netro-server.jpeg",
     "para1": "Our Netro Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
     "title2": "Benefits of Netro Server Management",
     "items": [
