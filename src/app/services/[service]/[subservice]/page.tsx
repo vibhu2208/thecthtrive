@@ -47,6 +47,15 @@ type ServiceKey =
   | "strategic-implementation-and-holistic-support"
   | "advanced-custom-dashboard-development"
   | "comprehensive-training-and-organizational-enablement"
+
+  | "netro-network-management"
+  | "netro-server-management"
+  | "helix-operations-management"
+  | "truesight-orchestrator"
+  | "truesight-server-automation"
+  | "helix-aiops"
+  | "helix-discovery"
+  | "truesight-network-automation"
   ;
 
 const data = {
@@ -92,7 +101,334 @@ const data = {
       }
     ]
   },
-  
+  "truesight-network-automation": {
+  "desc": "Simplify network management and enhance operational efficiency with TrueSight Network Automation, automating network device configuration, monitoring, and compliance.",
+  "title1": "TrueSight Network Automation",
+  "img": "/images/individual-service/truesight-network.png",
+  "para1": "TrueSight Network Automation enables organizations to automate and optimize network operations, ensuring better performance, security, and compliance across all network devices. By automating tasks such as configuration management, patching, and compliance enforcement, businesses can reduce the risk of errors, improve network uptime, and ensure that network devices are properly configured and compliant with industry standards. With advanced automation capabilities, TrueSight Network Automation helps network teams streamline workflows and improve network reliability.",
+  "title2": "Benefits of TrueSight Network Automation",
+  "items": [
+    {
+      "title": "Automated Device Configuration",
+      "desc": "Automate network device configurations to ensure consistency and compliance, reducing manual errors and configuration drift across your network."
+    },
+    {
+      "title": "Patch Management and Compliance",
+      "desc": "Automate the identification, testing, and deployment of patches to network devices, ensuring compliance with security policies and industry regulations."
+    },
+    {
+      "title": "End-to-End Network Visibility",
+      "desc": "Gain comprehensive visibility into your network infrastructure, including network topology, device health, and performance metrics for proactive management."
+    },
+    {
+      "title": "Simplified Network Change Management",
+      "desc": "Streamline network change processes with automated workflows, reducing downtime and improving change success rates by minimizing human error."
+    },
+    {
+      "title": "Reduced Operational Overhead",
+      "desc": "Free up IT resources by automating routine network tasks such as configuration backups, device monitoring, and policy enforcement."
+    },
+    {
+      "title": "Improved Network Security",
+      "desc": "Enhance network security by automating security policy enforcement, reducing vulnerabilities, and ensuring that devices remain compliant with security standards."
+    },
+    {
+      "title": "Faster Incident Resolution",
+      "desc": "Automate incident detection, classification, and remediation workflows, minimizing downtime and accelerating issue resolution for critical network components."
+    },
+    {
+      "title": "Seamless Integration with ITSM and DevOps",
+      "desc": "Integrate TrueSight Network Automation with IT Service Management (ITSM) systems and DevOps pipelines, enabling more agile network management and faster deployment cycles."
+    }
+  ]
+},
+  "helix-discovery": {
+  "desc": "Gain comprehensive visibility into your IT assets with Helix Discovery, an advanced solution for automatic discovery and mapping of your entire IT environment.",
+  "title1": "Helix Discovery",
+  "img": "/images/individual-service/helix-discovery.png",
+  "para1": "Helix Discovery offers organizations a detailed, real-time map of their entire IT infrastructure, automatically discovering and categorizing assets across on-premises, cloud, and hybrid environments. By providing an accurate view of all IT components, including hardware, software, and network configurations, it enables better decision-making, faster issue resolution, and improved compliance management. With its powerful automation capabilities, Helix Discovery helps businesses maintain a healthy, secure, and optimized IT environment.",
+  "title2": "Benefits of Helix Discovery",
+  "items": [
+    {
+      "title": "Comprehensive Asset Discovery",
+      "desc": "Automatically discover and categorize all IT assets, including servers, databases, network devices, and software applications, across hybrid and multi-cloud environments."
+    },
+    {
+      "title": "Real-Time Infrastructure Mapping",
+      "desc": "Gain a real-time, dynamic map of your entire IT infrastructure, ensuring accurate insights into how assets interact and dependencies across systems."
+    },
+    {
+      "title": "Improved Compliance and Auditing",
+      "desc": "Ensure compliance with regulatory standards by continuously tracking asset configurations and changes, simplifying audit processes and reducing risks."
+    },
+    {
+      "title": "Automated Dependency Mapping",
+      "desc": "Automatically map and visualize dependencies between IT assets, helping to identify potential issues and streamline troubleshooting."
+    },
+    {
+      "title": "Accurate Configuration Management",
+      "desc": "Maintain up-to-date and accurate records of configurations, ensuring your IT infrastructure is aligned with industry best practices and business needs."
+    },
+    {
+      "title": "Enhanced IT Governance",
+      "desc": "Strengthen IT governance by providing detailed insights into asset ownership, lifecycle management, and usage patterns, enabling better control over IT assets."
+    },
+    {
+      "title": "Scalable and Flexible Discovery",
+      "desc": "Scale your discovery processes seamlessly as your IT environment grows, ensuring that new assets are continuously discovered and mapped without disruption."
+    },
+    {
+      "title": "Integration with ITSM and CMDB",
+      "desc": "Integrate Helix Discovery with IT Service Management (ITSM) systems and Configuration Management Databases (CMDB) to ensure smooth workflows and improved service delivery."
+    }
+  ]
+},
+  "helix-aiops": {
+  "desc": "Transform IT operations with Helix AIOps, utilizing AI and machine learning to automate incident management, predictive analytics, and proactive issue resolution.",
+  "title1": "Helix AIOps",
+  "img": "/images/individual-service/helix-aiops.png",
+  "para1": "Helix AIOps leverages artificial intelligence to provide real-time insights, automate issue detection and resolution, and optimize IT operations. By integrating machine learning models, it enhances predictive analytics, helping businesses prevent incidents before they impact performance. With Helix AIOps, organizations can streamline workflows, increase system reliability, and reduce manual intervention, all while ensuring that IT resources are utilized efficiently and effectively.",
+  "title2": "Benefits of Helix AIOps",
+  "items": [
+    {
+      "title": "Proactive Issue Detection",
+      "desc": "Utilize AI to detect potential issues before they occur, reducing downtime and ensuring smoother operations across all IT systems."
+    },
+    {
+      "title": "Automated Incident Management",
+      "desc": "Automate the detection, classification, and resolution of incidents, minimizing human effort and speeding up resolution times."
+    },
+    {
+      "title": "Predictive Analytics",
+      "desc": "Leverage machine learning models to predict future system failures or performance bottlenecks, allowing for proactive measures to avoid disruptions."
+    },
+    {
+      "title": "Root Cause Analysis",
+      "desc": "Use AI to quickly identify the root cause of incidents, enabling faster troubleshooting and preventing recurring issues."
+    },
+    {
+      "title": "End-to-End Automation",
+      "desc": "Automate workflows from detection to resolution, ensuring that all systems are constantly monitored and managed with minimal manual involvement."
+    },
+    {
+      "title": "Optimized IT Operations",
+      "desc": "Enhance operational efficiency by streamlining processes and automating repetitive tasks, freeing up valuable resources for strategic initiatives."
+    },
+    {
+      "title": "AI-Driven Insights",
+      "desc": "Gain valuable insights into system health, performance trends, and areas for optimization, all driven by advanced AI algorithms."
+    },
+    {
+      "title": "Seamless Integration with Existing Systems",
+      "desc": "Easily integrate with existing ITSM, monitoring, and DevOps tools, providing a unified approach to incident management and resolution."
+    }
+  ]
+},
+  "truesight-server-automation": {
+    "desc": "Automate server management tasks and improve operational efficiency with TrueSight Server Automation, ensuring compliance, security, and scalability.",
+    "title1": "TrueSight Server Automation",
+    "img": "/images/individual-service/truesight-server.png",
+    "para1": "Our TrueSight Server Automation solutions enable organizations to automate complex server management tasks, improving security, compliance, and efficiency. By streamlining provisioning, patching, and configuration management, we help businesses achieve consistent server performance while reducing manual intervention. Our automation framework ensures that IT operations remain scalable, secure, and optimized for business needs.",
+    "title2": "Benefits of TrueSight Server Automation",
+    "items": [
+      {
+        "title": "Automated Server Provisioning",
+        "desc": "Eliminate manual provisioning tasks by automating server deployments, reducing errors, and accelerating the setup process for both physical and virtual environments."
+      },
+      {
+        "title": "Enhanced Security and Compliance",
+        "desc": "Ensure continuous compliance with security policies and industry regulations by automating patch management, access controls, and vulnerability remediation."
+      },
+      {
+        "title": "Streamlined Patch Management",
+        "desc": "Reduce security risks by automating the identification, deployment, and verification of patches across multiple servers, ensuring systems remain up to date."
+      },
+      {
+        "title": "Configuration Management at Scale",
+        "desc": "Enforce consistent server configurations with automated change management, reducing drift and ensuring optimal performance across IT environments."
+      },
+      {
+        "title": "Improved IT Efficiency",
+        "desc": "Reduce operational overhead by automating routine server administration tasks, allowing IT teams to focus on strategic initiatives."
+      },
+      {
+        "title": "Scalability and Flexibility",
+        "desc": "Support growing IT infrastructures with automation capabilities that scale effortlessly across hybrid and multi-cloud environments."
+      },
+      {
+        "title": "Intelligent Monitoring and Remediation",
+        "desc": "Leverage AI-powered insights and automated remediation workflows to identify and resolve server issues proactively, minimizing downtime."
+      },
+      {
+        "title": "Seamless Integration with DevOps",
+        "desc": "Enhance DevOps workflows by integrating server automation with CI/CD pipelines, ensuring rapid and consistent deployments."
+      }
+    ]
+  },
+  "truesight-orchestrator": {
+    "desc": "Automate and optimize IT operations with TrueSight Orchestrator, enhancing efficiency, reducing manual tasks, and ensuring seamless workflows.",
+    "title1": "TrueSight Orchestrator",
+    "img": "/images/individual-service/truesight-orchestrator.png",
+    "para1": "TrueSight Orchestrator streamlines IT operations by automating workflows, minimizing manual interventions, and enhancing system performance. Our solution integrates with various IT environments to ensure a proactive and efficient approach to operations management. With intelligent automation, businesses can reduce downtime, increase agility, and optimize resource allocation.",
+    "title2": "Benefits of TrueSight Orchestrator",
+    "items": [
+      {
+        "title": "Intelligent IT Automation",
+        "desc": "Automate repetitive IT tasks and workflows, reducing manual intervention and improving operational efficiency across systems."
+      },
+      {
+        "title": "Enhanced System Performance",
+        "desc": "Monitor and optimize system performance in real time, ensuring seamless operations and quick issue resolution."
+      },
+      {
+        "title": "Reduced Operational Costs",
+        "desc": "By automating IT processes, businesses can significantly cut operational costs while maintaining high efficiency."
+      },
+      {
+        "title": "Seamless Workflow Integration",
+        "desc": "Integrate with existing IT systems and tools to create seamless workflows that enhance collaboration and efficiency."
+      },
+      {
+        "title": "Proactive Incident Management",
+        "desc": "Leverage AI-driven insights to detect and address issues before they impact business operations, reducing downtime."
+      },
+      {
+        "title": "Scalable IT Infrastructure",
+        "desc": "Support business growth with a scalable IT automation solution that adapts to evolving technology needs."
+      },
+      {
+        "title": "Advanced Security and Compliance",
+        "desc": "Ensure compliance with industry standards and implement robust security measures to protect IT environments."
+      },
+      {
+        "title": "Improved Resource Utilization",
+        "desc": "Optimize IT resource allocation to maximize productivity and minimize wastage, leading to better overall performance."
+      }
+    ]
+  },
+  "helix-operations-management": {
+    "desc": "Streamline and optimize your business operations with Helix Operations Management, ensuring efficiency, automation, and scalability.",
+    "title1": "Helix Operations Management",
+    "img": "/images/individual-service/helix-operations.png",
+    "para1": "Our Helix Operations Management solutions focus on enhancing operational efficiency, reducing costs, and improving workflow automation. We leverage cutting-edge technology and best practices to streamline processes, minimize downtime, and maximize productivity across various industries. From real-time monitoring to predictive analytics, our solutions ensure seamless business operations.",
+    "title2": "Benefits of Helix Operations Management",
+    "items": [
+      {
+        "title": "Enhanced Operational Efficiency",
+        "desc": "We optimize your business processes with automation, AI-driven analytics, and real-time insights, ensuring maximum efficiency and reduced manual intervention."
+      },
+      {
+        "title": "Seamless Workflow Automation",
+        "desc": "By implementing intelligent workflow automation, we eliminate bottlenecks and streamline task management, leading to faster decision-making and improved productivity."
+      },
+      {
+        "title": "Real-Time Performance Monitoring",
+        "desc": "Our solutions provide real-time monitoring and reporting, allowing businesses to track key performance indicators (KPIs) and make data-driven decisions."
+      },
+      {
+        "title": "Scalability and Flexibility",
+        "desc": "Helix Operations Management is designed to scale with your business, ensuring seamless integration of new processes and technologies as your organization grows."
+      },
+      {
+        "title": "Cost Reduction and Resource Optimization",
+        "desc": "Through predictive analytics and resource optimization, we help businesses reduce operational costs and allocate resources more effectively, maximizing ROI."
+      },
+      {
+        "title": "Improved Compliance and Risk Management",
+        "desc": "We ensure adherence to industry regulations and standards with automated compliance tracking and risk assessment tools, reducing liabilities and enhancing governance."
+      },
+      {
+        "title": "AI-Driven Decision Support",
+        "desc": "Leveraging AI and machine learning, we provide intelligent decision support systems that enhance strategic planning and operational management."
+      },
+      {
+        "title": "Seamless Integration with Existing Systems",
+        "desc": "Our solutions seamlessly integrate with your existing IT infrastructure, ensuring smooth transitions and enhanced operational workflows without disruptions."
+      }
+    ]
+  },
+  "netro-server-management": {
+    "desc": "Optimize and streamline your server infrastructure with Netro Server Management, ensuring high availability, performance, and security.",
+    "title1": "Netro Server Management",
+    "img": "/images/individual-service/netro-server.png",
+    "para1": "Our Netro Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
+    "title2": "Benefits of Netro Server Management",
+    "items": [
+      {
+        "title": "Enhanced Server Security",
+        "desc": "We implement advanced security protocols, including firewalls, endpoint protection, and encryption, to safeguard servers from cyber threats, ensuring data integrity and compliance with industry regulations."
+      },
+      {
+        "title": "Proactive Monitoring and Maintenance",
+        "desc": "Continuous server monitoring and automated alerts enable us to detect and resolve issues before they impact business operations, ensuring optimal performance and reliability."
+      },
+      {
+        "title": "Automated Server Management",
+        "desc": "Leveraging AI-driven automation, we streamline server updates, patches, and configuration management, minimizing manual intervention and reducing the risk of human errors."
+      },
+      {
+        "title": "High Availability and Performance",
+        "desc": "Our solutions ensure minimal downtime with load balancing, redundancy planning, and failover mechanisms, keeping servers running efficiently even during peak demand."
+      },
+      {
+        "title": "Seamless Cloud and Hybrid Integration",
+        "desc": "We support server environments across on-premises, cloud, and hybrid infrastructures, ensuring seamless data synchronization, security, and workload management."
+      },
+      {
+        "title": "Resource Optimization and Cost Efficiency",
+        "desc": "Through continuous resource monitoring and optimization, we help businesses maximize server efficiency, reduce operational costs, and improve overall IT infrastructure management."
+      },
+      {
+        "title": "Robust Backup and Disaster Recovery",
+        "desc": "Our backup and disaster recovery solutions ensure business continuity by implementing scheduled backups, replication strategies, and rapid recovery mechanisms to minimize data loss."
+      },
+      {
+        "title": "Compliance and Regulatory Adherence",
+        "desc": "We ensure that your server infrastructure meets compliance standards such as GDPR, HIPAA, and ISO, with detailed logging, auditing, and security policies to maintain regulatory adherence."
+      }
+    ]
+  },
+  "netro-network-management": {
+    "desc": "Optimize and streamline your network infrastructure with Netro Network Management, ensuring seamless connectivity, performance, and security.",
+    "title1": "Netro Network Management",
+    "img": "/images/services/Designer.jpeg",
+    "para1": "Our Netro Network Management solutions focus on providing robust network infrastructure with enhanced security, performance, and scalability. We ensure smooth operations by implementing best practices in network monitoring, troubleshooting, and optimization. From small businesses to large enterprises, our network management solutions cater to various industries, ensuring maximum uptime and efficiency.",
+    "title2": "Benefits of Netro Network Management",
+    "items": [
+      {
+        "title": "Enhanced Network Security",
+        "desc": "We implement advanced security measures, including firewalls, intrusion detection systems, and encryption protocols, to protect your network from cyber threats, ensuring secure data transmission and compliance with industry standards."
+      },
+      {
+        "title": "Optimized Network Performance",
+        "desc": "By continuously monitoring and optimizing network traffic, we reduce latency, enhance bandwidth allocation, and ensure smooth data flow across your infrastructure, leading to improved efficiency and reliability."
+      },
+      {
+        "title": "Proactive Network Monitoring",
+        "desc": "With real-time network monitoring and automated alerts, we detect and resolve potential issues before they impact operations, ensuring uninterrupted connectivity and quick troubleshooting."
+      },
+      {
+        "title": "Scalability and Flexibility",
+        "desc": "Our network solutions are designed to scale with your business needs, enabling seamless expansion without compromising performance. Whether you’re upgrading hardware or integrating new technologies, we provide flexible solutions."
+      },
+      {
+        "title": "Reliable Cloud Integration",
+        "desc": "We help businesses integrate their network infrastructure with cloud-based solutions, ensuring secure and efficient data access, storage, and collaboration across distributed environments."
+      },
+      {
+        "title": "Automated Network Management",
+        "desc": "Leveraging AI-driven automation, we optimize network configurations, perform predictive maintenance, and minimize downtime, ensuring a highly efficient and self-sustaining network ecosystem."
+      },
+      {
+        "title": "Improved Compliance and Reporting",
+        "desc": "We ensure that your network complies with industry regulations and standards by implementing detailed logging, auditing, and compliance reporting tools for better governance and risk management."
+      },
+      {
+        "title": "Seamless Multi-Device Connectivity",
+        "desc": "Our solutions support seamless connectivity across multiple devices, allowing employees and customers to access the network securely from any location, enhancing productivity and collaboration."
+      }
+    ]
+  },
     "software-asset-management": {
       "desc": "Implement robust Software Asset Management (SAM) practices to optimize software investments, ensure compliance, and maximize the value of your organization's software portfolio through systematic tracking, management, and optimization.",
       "title1": "Software Asset Management",
