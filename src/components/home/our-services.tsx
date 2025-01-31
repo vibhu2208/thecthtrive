@@ -16,6 +16,12 @@ const cardsData = [
         link: ""
     },
     {
+        img: "/images/services/bmc-solutions.webp",
+        title: "BMC SOLUTIONS",
+        desc: "By addressing challenges related to operational effectiveness, business expansion, technology, and management, we help businesses find new technology-driven opportunities.",
+        link: ""
+    },
+    {
         img: "/images/services-card/devops.png",
         title: "DEVOPS CONSULTING",
         desc: "Accelerate your software delivery pipeline with our DevOps consulting services, ensuring seamless collaboration and efficient operations.",
