@@ -4,11 +4,18 @@ import Carousel from 'react-multi-carousel';
 
 const cardsData = [
     {
-        img: "/images/services-card/it-consulting.jpeg",
+        img: "/images/services-card/servicenow.jpg",
         title: "SERVICENOW IMPLEMENTATION AND SUPPORT",
         desc: "By addressing challenges related to operational effectiveness, business expansion, technology, and management, we help businesses find new technology-driven opportunities.",
         link: ""
     },
+    {
+        img: "/images/services/bmc-solutions.webp",
+        title: "BMC SOLUTIONS",
+        desc: "By addressing challenges related to operational effectiveness, business expansion, technology, and management, we help businesses find new technology-driven opportunities.",
+        link: ""
+    },
+
     {
         img: "/images/services-card/development.jpg",
         title: "DYNATRACE PERFORMANCE MONITORING",
@@ -16,7 +23,7 @@ const cardsData = [
         link: ""
     },
     {
-        img: "/images/services-card/staffing.jpeg",
+        img: "/images/services-card/devops.png",
         title: "DEVOPS CONSULTING",
         desc: "Our professional team works dedicatedly to provide you with the best candidates for the specific role and to efficiently meet our clients' requirements.",
         link: ""
@@ -28,7 +35,7 @@ const cardsData = [
         link: ""
     },
     {
-        img: "/images/services-card/digital.jpeg",
+        img: "/images/services-card/chatbot.webp",
         title: "CHATBOT DEVELOPMENT",
         desc: "We provide businesses with digital transformation to promote their businesses through creative digital marketing methods and customer experience.",
         link: ""
