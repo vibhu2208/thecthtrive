@@ -3,7 +3,7 @@ import PageHeader from '@/components/page-header';
 import React, { useEffect } from 'react'
 import Aos from "aos";
 import Link from 'next/link';
-type ServiceKey = "opentext-solutions" | "servicenow-implementation-and-support" | "devops-consulting" | "dynatrace-performance-monitoring" | "chatbot-development" | "automation-services" | "web-and-app-designing"| "power-bi-analytics";
+type ServiceKey = "opentext-solutions" | "servicenow-implementation-and-support" | "devops-consulting" | "dynatrace-performance-monitoring" | "chatbot-development" | "automation-services" | "web-and-app-designing"| "power-bi-analytics"| "bmc-solutions";
 
 const data = {
   
@@ -31,6 +31,55 @@ const data = {
         }
       ]
     },
+    "bmc-solutions": {
+  "desc": "Transforming IT Operations with BMC Solutions",
+  "title1": "BMC Solutions",
+  "img": "/images/services/bmc-solutions.webp",
+  "para1": "BMC provides industry-leading IT service and operations management solutions that enable businesses to automate, optimize, and secure their IT infrastructure. From network and server management to AI-powered operations and automation, our BMC solutions ensure seamless digital transformation, enhanced efficiency, and proactive problem resolution.",
+  "title2": "Our BMC Solutions for IT Excellence",
+  "items": [
+    {
+      "link": true,
+      "title": "Netro Network Management",
+      "desc": "Optimize and automate your network operations with BMC’s Netro Network Management. Gain real-time visibility, monitor network health, and ensure uninterrupted connectivity across your enterprise."
+    },
+    {
+      "link": true,
+      "title": "Netro Server Management",
+      "desc": "Enhance server performance, security, and automation with BMC’s Netro Server Management. Streamline server provisioning, patching, and compliance to ensure high availability and efficiency."
+    },
+    {
+      "link": true,
+      "title": "Helix Operations Management",
+      "desc": "Leverage AI-driven analytics to proactively detect, diagnose, and resolve IT issues with BMC Helix Operations Management. Improve service availability and reduce downtime with intelligent insights."
+    },
+    {
+      "link": true,
+      "title": "TrueSight Orchestrator",
+      "desc": "Automate complex IT workflows with TrueSight Orchestrator. Enable seamless integration across IT environments, reducing manual efforts and enhancing operational efficiency."
+    },
+    {
+      "link": true,
+      "title": "TrueSight Server Automation",
+      "desc": "Ensure compliance, security, and efficient server management with TrueSight Server Automation. Automate patching, provisioning, and configuration management across physical, virtual, and cloud environments."
+    },
+    {
+      "link": true,
+      "title": "Helix AIOps",
+      "desc": "Unlock AI-powered IT operations with BMC Helix AIOps. Use machine learning and analytics to predict and prevent IT issues, enabling proactive problem resolution and optimized performance."
+    },
+    {
+      "link": true,
+      "title": "Helix Discovery",
+      "desc": "Gain full visibility into your IT assets with BMC Helix Discovery. Identify and map infrastructure, applications, and dependencies for better risk management and IT optimization."
+    },
+    {
+      "link": true,
+      "title": "TrueSight Network Automation",
+      "desc": "Automate network management tasks with TrueSight Network Automation. Improve security, reduce vulnerabilities, and ensure compliance with automated network configuration and change management."
+    }
+  ]
+},
    "power-bi-analytics": {
         "desc": "Transform Your Data into Strategic Intelligence with Advanced Power BI Solutions",
         "title1": "Power BI Analytics: Unleashing Data-Driven Potential",
