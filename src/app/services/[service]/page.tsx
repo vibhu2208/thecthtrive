@@ -40,12 +40,12 @@ const data = {
   "items": [
     {
       "link": true,
-      "title": "Netro Network Management",
+      "title": "Netreo Network Management",
       "desc": "Optimize and automate your network operations with BMC’s Netro Network Management. Gain real-time visibility, monitor network health, and ensure uninterrupted connectivity across your enterprise."
     },
     {
       "link": true,
-      "title": "Netro Server Management",
+      "title": "Netreo Server Management",
       "desc": "Enhance server performance, security, and automation with BMC’s Netro Server Management. Streamline server provisioning, patching, and compliance to ensure high availability and efficiency."
     },
     {
