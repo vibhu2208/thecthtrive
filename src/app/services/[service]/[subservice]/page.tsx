@@ -348,11 +348,11 @@ const data = {
     ]
   },
   "netreo-server-management": {
-    "desc": "Optimize and streamline your server infrastructure with netreo Server Management, ensuring high availability, performance, and security.",
-    "title1": "netreo Server Management",
-    "img": "/images/services/netreo-server.jpeg",
-    "para1": "Our netreo Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
-    "title2": "Benefits of netreo Server Management",
+    "desc": "Optimize and streamline your server infrastructure with Netreo Server Management, ensuring high availability, performance, and security.",
+    "title1": "Netreo Server Management",
+    "img": "/images/services/netro-server.jpeg",
+    "para1": "Our Netreo Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
+    "title2": "Benefits of Netreo Server Management",
     "items": [
       {
         "title": "Enhanced Server Security",
@@ -389,11 +389,11 @@ const data = {
     ]
   },
   "netreo-network-management": {
-    "desc": "Optimize and streamline your network infrastructure with netreo Network Management, ensuring seamless connectivity, performance, and security.",
-    "title1": "netreo Network Management",
+    "desc": "Optimize and streamline your network infrastructure with Netreo Network Management, ensuring seamless connectivity, performance, and security.",
+    "title1": "Netreo Network Management",
     "img": "/images/services/Designer.jpeg",
-    "para1": "Our netreo Network Management solutions focus on providing robust network infrastructure with enhanced security, performance, and scalability. We ensure smooth operations by implementing best practices in network monitoring, troubleshooting, and optimization. From small businesses to large enterprises, our network management solutions cater to various industries, ensuring maximum uptime and efficiency.",
-    "title2": "Benefits of netreo Network Management",
+    "para1": "Our Netreo Network Management solutions focus on providing robust network infrastructure with enhanced security, performance, and scalability. We ensure smooth operations by implementing best practices in network monitoring, troubleshooting, and optimization. From small businesses to large enterprises, our network management solutions cater to various industries, ensuring maximum uptime and efficiency.",
+    "title2": "Benefits of Netreo Network Management",
     "items": [
       {
         "title": "Enhanced Network Security",
