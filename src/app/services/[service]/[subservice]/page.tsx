@@ -48,8 +48,8 @@ type ServiceKey =
   | "advanced-custom-dashboard-development"
   | "comprehensive-training-and-organizational-enablement"
 
-  | "netro-network-management"
-  | "netro-server-management"
+  | "netreo-network-management"
+  | "netreo-server-management"
   | "helix-operations-management"
   | "truesight-orchestrator"
   | "truesight-server-automation"
@@ -347,12 +347,12 @@ const data = {
       }
     ]
   },
-  "netro-server-management": {
-    "desc": "Optimize and streamline your server infrastructure with Netro Server Management, ensuring high availability, performance, and security.",
-    "title1": "Netro Server Management",
-    "img": "/images/services/netro-server.jpeg",
-    "para1": "Our Netro Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
-    "title2": "Benefits of Netro Server Management",
+  "netreo-server-management": {
+    "desc": "Optimize and streamline your server infrastructure with netreo Server Management, ensuring high availability, performance, and security.",
+    "title1": "netreo Server Management",
+    "img": "/images/services/netreo-server.jpeg",
+    "para1": "Our netreo Server Management solutions provide comprehensive server monitoring, maintenance, and optimization to ensure seamless operations. We implement proactive strategies for performance tuning, security, and automation, reducing downtime and enhancing system reliability. Whether managing on-premises, cloud, or hybrid server environments, our solutions cater to businesses of all sizes.",
+    "title2": "Benefits of netreo Server Management",
     "items": [
       {
         "title": "Enhanced Server Security",
@@ -388,12 +388,12 @@ const data = {
       }
     ]
   },
-  "netro-network-management": {
-    "desc": "Optimize and streamline your network infrastructure with Netro Network Management, ensuring seamless connectivity, performance, and security.",
-    "title1": "Netro Network Management",
+  "netreo-network-management": {
+    "desc": "Optimize and streamline your network infrastructure with netreo Network Management, ensuring seamless connectivity, performance, and security.",
+    "title1": "netreo Network Management",
     "img": "/images/services/Designer.jpeg",
-    "para1": "Our Netro Network Management solutions focus on providing robust network infrastructure with enhanced security, performance, and scalability. We ensure smooth operations by implementing best practices in network monitoring, troubleshooting, and optimization. From small businesses to large enterprises, our network management solutions cater to various industries, ensuring maximum uptime and efficiency.",
-    "title2": "Benefits of Netro Network Management",
+    "para1": "Our netreo Network Management solutions focus on providing robust network infrastructure with enhanced security, performance, and scalability. We ensure smooth operations by implementing best practices in network monitoring, troubleshooting, and optimization. From small businesses to large enterprises, our network management solutions cater to various industries, ensuring maximum uptime and efficiency.",
+    "title2": "Benefits of netreo Network Management",
     "items": [
       {
         "title": "Enhanced Network Security",
