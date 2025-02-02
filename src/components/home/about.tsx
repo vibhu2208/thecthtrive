@@ -16,7 +16,10 @@ const About = () => {
         </p>
         <p className='pt-4 text-gray-700'>
         **About Us**  
-We are a leading technology solutions provider, specializing in ServiceNow and Dynatrace offerings to enhance business efficiency and digital transformation. Our expertise in ServiceNow streamlines IT workflows, automates processes, and improves service management, ensuring seamless operations. <br> With Dynatrace, we deliver AI-powered observability, real-time monitoring, and performance optimization for applications and infrastructure. Our customer-centric approach focuses on delivering cutting-edge solutions that drive innovation, improve user experience, and maximize business value.
+<p>We are a leading technology solutions provider, specializing in ServiceNow and Dynatrace offerings to enhance business efficiency and digital transformation. Our expertise in ServiceNow streamlines IT workflows, automates processes, and improves service management, ensuring seamless operations.</p>
+
+<p>With Dynatrace, we deliver AI-powered observability, real-time monitoring, and performance optimization for applications and infrastructure. Our customer-centric approach focuses on delivering cutting-edge solutions that drive innovation, improve user experience, and maximize business value.</p>
+
         </p>
         <div className='grid grid-cols-2 my-3 gap-3'>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Dynatrace Performance Monitoring</div>
