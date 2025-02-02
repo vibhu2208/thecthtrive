@@ -10,7 +10,7 @@ const MissionVision = () => {
           IT Solutions.
         </p>
         <p className='text-gray-700 text-left'>
-          We offer consulting services, Staffing services to Fortune 500 corporations, public agencies, and small and mid-sized businesses throughout North America.
+             We provide **ServiceNow** and **Dynatrace** solutions to **Fortune 500 companies, public agencies, and SMBs** across North America. **ServiceNow** streamlines IT workflows, while **Dynatrace** ensures AI-driven observability and performance optimization.
         </p>
         <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5'>
           <div className='flex-1'>
