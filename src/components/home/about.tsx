@@ -15,8 +15,8 @@ const About = () => {
         TTS Delivers Optimal Value
         </p>
         <p className='pt-4 text-gray-700'>
-        The process of web designing involves using the latest technologies to create a highly-functioning website equipped with advanced features. It focuses on improving the look and accessibility of a website.<br />
-        We are a professional Website Design Service offering a wide range of website design solutions. Our approach to web designing is customer-centric. We strive to improve the performance of your website and enrich the user experience.
+        **About Us**  
+We are a leading technology solutions provider, specializing in ServiceNow and Dynatrace offerings to enhance business efficiency and digital transformation. Our expertise in ServiceNow streamlines IT workflows, automates processes, and improves service management, ensuring seamless operations. <br> With Dynatrace, we deliver AI-powered observability, real-time monitoring, and performance optimization for applications and infrastructure. Our customer-centric approach focuses on delivering cutting-edge solutions that drive innovation, improve user experience, and maximize business value.
         </p>
         <div className='grid grid-cols-2 my-3 gap-3'>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Dynatrace Performance Monitoring</div>
