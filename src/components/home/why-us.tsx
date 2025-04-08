@@ -11,9 +11,9 @@ const WhyUs = () => {
                 <h2 className='text-4xl font-bold text-[#211E6D]' data-aos="fade-up" data-aos-delay="300">
                     Why TTS?
                 </h2>
-                <p className='md:text-xl text-base' data-aos="fade-up" data-aos-delay="300">
-                    We believe in integrity, innovation, constant improvement, commitment to customers, teamwork, and trust. We provide high-level planning and infrastructure consulting through technology partnerships. We work on developing your technology implementation and management plan.
-                </p>
+                <div className='md:text-xl text-base' data-aos="fade-up" data-aos-delay="300">
+                    At TechThrive Systems, we believe in delivering nothing but the best. That's why we've built a highly skilled, versatile, and dedicated team committed to going above and beyond to meet your unique needs. Whether you're looking for innovative IT solutions, seamless system integration, or expert technical support, we're here to ensure your business thrives.
+                </div>
                 <Link href="/about-us">
                     <div data-aos="fade-up" data-aos-delay="300" className='px-8 py-2 cursor-pointer w-fit font-medium bg-[#211E6D] hover:bg-sky-700 transition-all text-white rounded-lg shadow-lg'>
                         More About Us
@@ -27,31 +27,31 @@ const WhyUs = () => {
                         <h3 className='text-xl font-semibold text-[#211E6D]'>
                             Expert Team
                         </h3>
-                        <p className='text-gray-700'>
-                            At TechThrive System, we believe in quality, so we have a more comprehensive, versatile, and skilled team that will go above and beyond to meet the needs of our clients.
-                        </p>
+                        <div className='text-gray-700'>
+                            Our focus on quality, combined with our passion for technology, allows us to deliver tailored solutions that drive results and exceed expectations.
+                        </div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300" className='bg-white rounded-lg shadow-xl p-6 flex gap-4 items-center'>
                     <FaRegHandshake className='text-5xl text-[#211E6D]' />
                     <div>
                         <h3 className='text-xl font-semibold text-[#211E6D]'>
-                            Committed to Delivery
+                            Committed Delivery
                         </h3>
-                        <p className='text-gray-700'>
-                            We are committed to delivering high-quality solutions on time and within budget, ensuring our clients' success.
-                        </p>
+                        <div className='text-gray-700'>
+                            We take pride in our unwavering commitment to delivering high-quality solutions on time and within budget. Your success is our priority, and we work tirelessly to ensure that every project meets your expectations and drives tangible results.
+                        </div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300" className='bg-white rounded-lg shadow-xl p-6 flex gap-4 items-center'>
                     <MdOutlineSecurity className='text-5xl text-[#211E6D]' />
                     <div>
                         <h3 className='text-xl font-semibold text-[#211E6D]'>
-                            Security Focused
+                            Proven Track Record
                         </h3>
-                        <p className='text-gray-700'>
-                            We prioritize security in all our solutions, ensuring that your data and systems are protected at all times.
-                        </p>
+                        <div className='text-gray-700'>
+                            We have a proven track record of helping enterprises optimize their IT infrastructure, reducing downtime, improving application performance, etc. Our expertise in AIOps, digital transformation, Automations, and Service Management complements Dynatrace's cutting-edge observability platform.
+                        </div>
                     </div>
                 </div>
             </div>
