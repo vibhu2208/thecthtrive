@@ -58,15 +58,15 @@ type CardType = {
 
 const Card = ({ data }: CardType) => {
     return (
-        <div className="max-w-xs bg-white border border-gray-200 rounded-lg hover:shadow-2xl transition-shadow flex flex-col">
+        <div className="h-[450px] bg-white border border-gray-200 rounded-lg hover:shadow-2xl transition-shadow flex flex-col">
             <div className='p-2 rounded-lg overflow-hidden object-cover h-40'>
-                <img className="rounded-t-lg" src={data.img} alt="" />
+                <img className="rounded-t-lg w-full h-full object-cover" src={data.img} alt="" />
             </div>
             <Link href={`/services/${data.title.toLowerCase().replaceAll(" ", "-")}`}>
                 <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col">
-                    <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
-                    <p className="mb-3 text-normal text-gray-700 text-left" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
-                    <p className='flex-1 justify-self-end' data-aos="fade-up" data-aos-delay="300"></p>
+                    <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65] line-clamp-2" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
+                    <p className="mb-3 text-normal text-gray-700 text-left line-clamp-3" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
+                    <div className='flex-1'></div>
                     <p data-aos="fade-up" data-aos-delay="300" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg">
                         Get more detail
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -121,7 +121,7 @@ const OurServices = () => {
                 draggable
                 focusOnSelect={false}
                 infinite
-                itemClass=""
+                itemClass="px-4"
                 keyBoardControl
                 minimumTouchDrag={80}
                 pauseOnHover
