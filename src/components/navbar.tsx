@@ -23,16 +23,20 @@ const services = {
         "Cultural Transformation",
         "Performance Metrics and Monitoring"
     ],
-    "OPENTEXT SOLUTIONS": [
-        "End-to-End Implementation and Support",
-        "Integration with Existing and new Solution",
-        "Training and Knowledge Transfer"
+    "BMC SOLUTIONS": [
+        "Netreo Network Management",
+        "Netreo Server Management",
+        "Helix Operations Management",
+        "TrueSight Orchestrator",
+        "TrueSight Server Automation",
+        "Helix AIOps",
+        "Helix Discovery",
+       
     ],
     "CHATBOT DEVELOPMENT": [
         "Intelligent Chatbots for Engagement",
         "Customizable Solutions",
         "Integration with Existing Channels"
-
     ],
     "AUTOMATION SERVICES": [
         "Leveraging Automation Technologies",
@@ -64,10 +68,10 @@ const Navbar = () => {
     }
     return (
         <header className='sticky top-0 z-[10001] bg-[#1a1f65] border-b-[1px] border-gray-300 shadow max-h-[100vh] flex flex-col'>
-            <nav className='flex justify-between items-center py-1 px-4 max-w-6xl w-full mx-auto'>
+            <nav className='flex justify-between items-center py-3 px-4 max-w-6xl w-full mx-auto'>
                 <div onClick={() => { handleClick(); }} className='text-[#ffffff]'>
                     <Link href="/" className='text-2xl font-bold'>
-                        <Image src={"/images/techthrivesystem-logo.png"} width={150} height={50} alt='logo' />
+                        <Image src={"/images/techthrivesystem-logo.png"} width={180} height={60} alt='logo' />
                     </Link>
                 </div>
                 <div className='md:hidden block text-4xl' onClick={() => setMenuStatus((pre) => (!pre))}>

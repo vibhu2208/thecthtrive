@@ -5,7 +5,7 @@ const ContactUs = () => {
         <div className='bg-white pt-8 md:pt-16 pb-4 mx-auto'>
             <div className='w-full flex justify-center'>
                 <div className='py-4 px-4 mx-4 w-fit shadow-2xl border-t-[1px] rounded-2xl'>
-                    <h2 className='text-4xl font-bold text-center text-[#1A1F65]'> Need IT support? Connect with us.</h2>
+                    <h2 className='text-4xl font-bold text-center text-[#1A1F65]'>Connect with us.</h2>
                     <form className="mx-auto max-w-lg mt-8 flex flex-col gap-8">
                         <div className="">
                             <input className="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Full Name" />

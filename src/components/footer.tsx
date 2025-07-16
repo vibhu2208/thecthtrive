@@ -31,8 +31,8 @@ const Footer = () => {
                         <Link href={"/services/devops-consulting"} className='hover:underline'>
                             DevOps Consulting
                         </Link>
-                        <Link href={"/services/opentext-solutions"} className='hover:underline'>
-                            OpenText Solutions
+                        <Link href={"/services/bmc-solutions"} className='hover:underline'>
+                            BMC Solutions
                         </Link>
                         <Link href={"/services/chatbot-development"} className='hover:underline'>
                             ChatBot Development
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <h4 className='font-semibold text-white'>UAE (Freeland Dubai)</h4>
                                 <div className='flex items-center gap-2'>
                                     <FaPhoneVolume className='text-[#0f588c]' />
-                                    <span>+971 582 464 210</span>
+                                    <span>+971563474634</span>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <FaPhoneVolume className='text-[#0f588c]' />
@@ -71,7 +71,7 @@ const Footer = () => {
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <FaPhoneVolume className='text-[#0f588c]' />
-                                    <span>+91 926 615 8800</span>
+                                    <span>+91 91930 21310</span>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <MdEmail className='text-[#0f588c]' />

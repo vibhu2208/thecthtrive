@@ -95,7 +95,7 @@ const CustomCarousel = () => {
             {
                 data.map((item, i) => {
                     return (
-                        <div className='h-full w-full m-auto relative' key={i}>
+                        <div className='h-[80vh] w-full m-auto relative' key={i}>
                             <video autoPlay loop muted src={item.url} className="object-cover w-full h-full" />
                             <div className='absolute top-0 h-full w-full bg-black bg-opacity-70 flex items-center justify-center flex-col gap-4'>
                                 <h2 data-aos="fade-up" data-aos-delay="300" className='lg:text-5xl md:text-4xl text-lg font-bold text-center text-white'>{item.desc}</h2>

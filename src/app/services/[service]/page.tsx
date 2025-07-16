@@ -73,11 +73,7 @@ const data = {
       "title": "Helix Discovery",
       "desc": "Gain full visibility into your IT assets with BMC Helix Discovery. Identify and map infrastructure, applications, and dependencies for better risk management and IT optimization."
     },
-    {
-      "link": true,
-      "title": "TrueSight Network Automation",
-      "desc": "Automate network management tasks with TrueSight Network Automation. Improve security, reduce vulnerabilities, and ensure compliance with automated network configuration and change management."
-    }
+    
   ]
 },
    "power-bi-analytics": {

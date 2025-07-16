@@ -28,12 +28,6 @@ const cardsData = [
         link: ""
     },
     {
-        img: "/images/services-card/opentext.webp",
-        title: "OPENTEXT SOLUTIONS",
-        desc: "Maximize your document management capabilities with our OpenText solutions, enabling secure and efficient information management.",
-        link: ""
-    },
-    {
         img: "/images/services-card/chatbot.webp",
         title: "CHATBOT DEVELOPMENT",
         desc: "Elevate customer engagement and automate responses with our innovative chatbot development solutions customized for your business.",
@@ -58,16 +52,17 @@ type CardType = {
 
 const Card = ({ data }: CardType) => {
     return (
-        <div className="max-w-xs bg-white border border-gray-200 rounded-lg hover:shadow-2xl transition-shadow flex flex-col">
+        <div className="h-[370px] bg-white border border-gray-200 rounded-lg hover:shadow-2xl transition-shadow flex flex-col">
             <div className='p-2 rounded-lg overflow-hidden object-cover h-40'>
-                <img className="rounded-t-lg" src={data.img} alt="" />
+                <img className="rounded-t-lg w-full h-full object-cover" src={data.img} alt="" />
             </div>
             <Link href={`/services/${data.title.toLowerCase().replaceAll(" ", "-")}`}>
-                <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col">
-                    <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65]" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
-                    <p className="mb-3 text-normal text-gray-700 text-left" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
-                    <p className='flex-1 justify-self-end' data-aos="fade-up" data-aos-delay="300"></p>
-                    <p data-aos="fade-up" data-aos-delay="300" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg">
+                <div className="px-4 py-3 cursor-pointer flex-1 flex flex-col justify-between">
+                    <div>
+                        <h5 className="mb-2 text-lg font-semibold tracking-tight text-[#1A1F65] line-clamp-2" data-aos="fade-up" data-aos-delay="300">{data.title}</h5>
+                        <p className="mb-3 text-normal text-gray-700 text-left line-clamp-3" data-aos="fade-up" data-aos-delay="300">{data.desc}</p>
+                    </div>
+                    <p data-aos="fade-up" data-aos-delay="300" className="flex w-fit items-center px-2 py-[0.4rem] text-sm text-center font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white rounded-2xl shadow-lg mt-4">
                         Get more detail
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -121,7 +116,7 @@ const OurServices = () => {
                 draggable
                 focusOnSelect={false}
                 infinite
-                itemClass=""
+                itemClass="px-4"
                 keyBoardControl
                 minimumTouchDrag={80}
                 pauseOnHover

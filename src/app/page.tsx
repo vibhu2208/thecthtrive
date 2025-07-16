@@ -10,6 +10,8 @@ import OurMethodOfOperations from "@/components/home/method-of-operations";
 import IndustriesWeOffer from "@/components/home/industries-we-offer";
 import Testimonials from "@/components/testimorials";
 import OurServicesBenefits from "@/components/home/our-services-benefits";
+import Partnerships from "@/components/home/partnerships";
+import Gallery from "@/components/home/gallery";
 import { useEffect } from "react";
 import Aos from "aos";
 import HaveQuestion from "@/components/have-question";
@@ -24,14 +26,15 @@ export default function Home() {
     <div className="h-full w-full overflow-hidden pb-12">
       <Carousel />
       <WhyUs />
+      <Partnerships />
       <OurServices />
       <About />
       <MissionVision />
       <OurServicesBenefits />
       <BigNews />
       <OurMethodOfOperations />
+      <Gallery />
       <IndustriesWeOffer />
-      
       <Testimonials />
       <HaveQuestion />
     </div>

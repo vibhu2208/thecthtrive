@@ -29,12 +29,6 @@ const cardsData = [
         link: ""
     },
     {
-        img: "/images/services-card/emerging-tech.jpeg",
-        title: "OPENTEXT SOLUTIONS",
-        desc: "Techthrivesystem has been providing recruiting, screening, and placement services for contract, permanent, and contract-to-permanent positions that enable client companies to increase productivity.",
-        link: ""
-    },
-    {
         img: "/images/services-card/chatbot.webp",
         title: "CHATBOT DEVELOPMENT",
         desc: "We provide businesses with digital transformation to promote their businesses through creative digital marketing methods and customer experience.",

@@ -15,16 +15,18 @@ const About = () => {
         TTS Delivers Optimal Value
         </p>
         <p className='pt-4 text-gray-700'>  
-<p>We are a leading technology solutions provider, specializing in ServiceNow and Dynatrace offerings to enhance business efficiency and digital transformation. Our expertise in ServiceNow streamlines IT workflows, automates processes, and improves service management, ensuring seamless operations.</p>
-
-<p>With Dynatrace, we deliver AI-powered observability, real-time monitoring, and performance optimization for applications and infrastructure. Our customer-centric approach focuses on delivering cutting-edge solutions that drive innovation, improve user experience, and maximize business value.</p>
-
+          <span>We are a leading technology solutions provider, specializing in ServiceNow and Dynatrace offerings to enhance business efficiency and digital transformation. Our expertise in ServiceNow streamlines IT workflows, automates processes, and improves service management, ensuring seamless operations.</span>
+          <br />
+          <span>With Dynatrace, we deliver AI-powered observability, real-time monitoring, and performance optimization for applications and infrastructure. Our customer-centric approach focuses on delivering cutting-edge solutions that drive innovation, improve user experience, and maximize business value.</span>
         </p>
-        <div className='grid grid-cols-2 my-3 gap-3'>
+        <div className='grid grid-cols-2 my-3 gap-3'>            
+          <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> SymphonyAI Integration</div>
+            <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> BMC Implementation</div>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Dynatrace Performance Monitoring</div>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> ChatBot Development</div>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Integration with Existing Systems </div>
             <div className='flex items-center gap-2'> <span className='rounded-full p-1 bg-yellow-500'><HiCheck  className='text-lg text-white' /></span> Application Development</div>
+
         </div>
         <Link href={"/about-us"}>
           <div className='px-2 py-[0.3rem] mt-4 cursor-pointer font-semibold bg-[#0f588c] hover:bg-sky-700 transition-all text-white w-fit rounded-2xl shadow-lg'>About Us</div>

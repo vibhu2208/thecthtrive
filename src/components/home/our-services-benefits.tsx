@@ -48,14 +48,17 @@ const data: {
             ]
         },
         {
-            para: "We provide comprehensive OpenText support to ensure seamless implementation, integration, and optimization of enterprise content management systems. Our goal is to help businesses maximize operational efficiency with tailored solutions.",
-            heading: "OpenText Solutions",
-            list: [
-                "Provide expert guidance for successful OpenText implementations.",
-                "Integrate OpenText solutions with existing systems for enhanced functionality.",
-                "Offer training and knowledge transfer to empower users and administrators.",
-                "Provide expert guidance for successful OpenText implementations."
-            ]
+            "para": "BMC provides industry-leading IT service and operations management solutions that help businesses automate, optimize, and secure their IT infrastructure. From network and server management to AI-powered operations and automation, our BMC solutions enable seamless digital transformation and proactive problem resolution.",
+  "heading": "BMC Solutions",
+  "list": [
+    "Optimize and automate network operations with real-time visibility and monitoring.",
+    "Enhance server performance, security, and automation for high availability.",
+    "Use AI-driven analytics to proactively detect and resolve IT issues.",
+    "Automate complex IT workflows for seamless integration and efficiency.",
+    "Ensure secure, compliant server management with automated patching and provisioning.",
+    "Leverage machine learning to predict and prevent IT issues for optimized performance.",
+    "Gain full visibility of IT assets and dependencies for better risk management."
+  ]
         }
     ]
 const OurServicesBenefits = () => {

@@ -23,7 +23,6 @@ const AboutPage = () => {
           <MissionVision />
         </div>
         <OurUsps />
-        <CompanySlider />
         <Testimonials />
         <HaveQuestion />
     </div>
