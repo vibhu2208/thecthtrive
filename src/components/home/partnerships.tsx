@@ -15,7 +15,7 @@ const partners = [
         logo: "/images/partners/WebsJyoti.png",
     },
     {
-        name: "Microsoft Azure",
+        name: "Global",
         logo: "/images/partners/global.png",
     },
 ];
