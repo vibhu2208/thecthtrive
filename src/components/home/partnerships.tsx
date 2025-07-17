@@ -13,11 +13,7 @@ const partners = [
     {
         name: "WebsJyoti",
         logo: "/images/partners/WebsJyoti.png",
-    },
-    {
-        name: "Global",
-        logo: "/images/partners/global.png",
-    },
+    }
 ];
 
 const Partnerships = () => {
