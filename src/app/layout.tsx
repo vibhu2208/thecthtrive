@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   description: "IT service and consulting company",
   icons: [
     {
-      url: '/images/favicon.ico',
-      href: '/images/favicon.ico',
+      url: '/logo.webp',
+      href: '/logo.webp',
     }
   ]
 };

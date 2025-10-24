@@ -16,12 +16,7 @@ const galleryImages = [
         category: "events",
         description: "Conducting a workshop on emerging technologies"
     },
-    {
-        src: "/images/gallery/team03.jpg",
-        alt: "Team Collaboration",
-        category: "events",
-        description: "Our team collaborating on a new project."
-    },
+    
     {
         src: "/images/gallery/team04.jpg",
         alt: "Team Celebration",
