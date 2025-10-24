@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Techthrivesystem",
-  description: "IT service and consulting company",
+  description: "TechThrive System is a leading IT solutions provider specializing in ServiceNow, Dynatrace, DevOps, BMC, Chatbot Development, and Power BI Analytics. We deliver high-quality, scalable, and automated solutions that enhance business productivity, flexibility, and digital transformation across industries.",
   icons: [
     {
       url: '/logo.webp',
